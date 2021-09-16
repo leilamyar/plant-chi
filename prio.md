@@ -1,6 +1,7 @@
-GOAL : have a game that works !
-USER's point = be able to take care of a plant <3
+**GOAL : have a game that works !**
+**USER's point = be able to take care of a plant <3**
 
+__ !!! This is our project's jargon, ie : USE THOSE TERMS when naming variables, id, classes, assets, ... __
 ## PRIO 1
 - play btn
 - plant choice
@@ -21,3 +22,7 @@ USER's point = be able to take care of a plant <3
 
 
 
+### Guidelines
+- code in **English**
+- BEWARE for your variables'names
+- use CONST as much as possible (or LET but NEVER var)
