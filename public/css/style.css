@@ -8,3 +8,38 @@
 body {
   background-color: var(--main-bg-color);
 } */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.aligned-center {
+  text-align: center;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.flex-col-centered {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: lightseagreen;
+  color: white;
+  width: max-content;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.2ch;
+}
+/* 
+https://css-tricks.com/overriding-default-button-styles/
+*/
