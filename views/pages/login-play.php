@@ -10,13 +10,10 @@
     <div class="aligned-center">
       <input type="password" name="user-pwd" id="user-pwd" placeholder="password">
     </div>
-    <div class="btn-custom">
       <button type="submit">SIGN UP
       </button>
-    </div>
   </form>
   
-  <div class="aligned-center">Already have an account? <a href="?=section=signin">Sign in</a></div>
+  <div class="aligned-center">Already have an account? <a href="?section=signin">Sign in</a></div>
   
-  <div class="btn-custom">PLAY</div>
-</div>
+  <a href="?section=play" class="btn">PLAY</a>
