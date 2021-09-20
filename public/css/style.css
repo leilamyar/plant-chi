@@ -52,7 +52,7 @@ button:hover,
 button:focus,
 .btn:hover,
 .btn:focus {
-  background: limegreen;
+  background: mediumseagreen;
 }
 
 button:focus,
@@ -64,4 +64,21 @@ button:focus,
 button:active,
 .btn:active {
   transform: scale(0.99);
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 0.1rem solid lightslategrey;
+}
+
+input {
+  border:none;
+  outline-width: 0;
+  border-bottom: 0.1rem solid lightsteelblue;
+  padding: 0.5rem;
+}
+
+::placeholder {
+  color: lightslategrey;
+  text-align: center;
 }
