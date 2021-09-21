@@ -8,3 +8,16 @@
 body {
   background-color: var(--main-bg-color);
 } */
+
+:root {
+  --yellow: #fff72c;
+  --whitish: #ebffff;
+  --brown:#77412f;
+  --pink:#eeacaf;
+  
+}
+
+body {
+  background-color: var(--whitish);
+
+}
