@@ -2,22 +2,22 @@
   if(isset($_GET["section"])) {
     switch ($_GET["section"]) {
       case 'home':
-        include("views/page/home.php");
+        include("controller/home-controller.php");
         break;
       case 'login':
-        include("views/page/login.php");
+        include("controller/login-controller.php");
         break;
         case 'choose-a-plant':
-          include("views/page/choose-a-plant.php");
+          include("controller/choose-a-plant-controller.php");
           break;
         case 'choose-a-room':
-          include ("views/page/choose-a-room.php");
+          include ("controller/choose-a-room-controller.php");
           break;
         case 'choose-a-spot':
-          include("views/page/choose-a-spot.php");
+          include("controller/choose-a-spot-controller.php");
           break;
           case 'fail-spot':
-            include("views/page/fail-spot.php");
+            include("controller/fail-spot-controller.php");
             break;
 
       default:
@@ -26,6 +26,6 @@
     }
   } 
     else {
-    include("views/page/home.php");
+    include("controller/home-controller.php");
   }
 ?>
