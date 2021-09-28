@@ -11,15 +11,43 @@
   --brown:#77412f;
   --pink:#eeacaf;
   --green:#009846;
+  --ff: PixelFont;
 }
 
-body {
+html {
   box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body, html {
   margin: 0;
   padding: 0;
   background-color: var(--whitish);
-  font-family: PixelFont;
+  font-family: var(--ff);
   font-weight: 100;
+  height: 100%;
+}
+
+.login-c {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  transform: scale(0.7);
+}
+.title {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .aligned-center {
@@ -31,7 +59,7 @@ body {
 
 .flex-col-centered {
   width: 60%;
-  margin: auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +76,7 @@ button,
   text-decoration: none;
   background: linear-gradient(lightseagreen 60%, #fff);
   color: #fff;
-  font-family: sans-serif;
+  font-family: var(--ff);
   font-weight: bold;
   letter-spacing: 0.2ch;
   font-size: 1rem;
@@ -93,5 +121,12 @@ input {
   text-align: center;
 }
 
-
-
+@media screen and (min-width: 480px) {
+  .logo {
+    font-size: 2em;
+    margin-bottom: 2rem;
+  }
+  .title {
+    margin-top: 2rem;
+  }
+}
