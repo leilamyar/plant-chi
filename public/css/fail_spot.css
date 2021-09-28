@@ -18,7 +18,7 @@
   .plant-chi-dead-img{
     width: 15%;
     margin-bottom: 30px;
-    -webkit-animation: bounce 1s infinite alternate;
+    animation: bounce 1s infinite alternate;
     /* Like this the image will never stop bouncing*/
   }
   
