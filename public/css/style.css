@@ -8,3 +8,10 @@
 body {
   background-color: var(--main-bg-color);
 } */
+
+/* Choose a spot style */
+
+.flex-c-col {
+  display: flex;
+  flex-flow: column nowrap;
+}
