@@ -1,13 +1,10 @@
-/* CSS variables */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
-/* Why ?  So that we have all names used in 1 place :) */
-
-/* :root {
-  --main-bg-color: green;
+@font-face {
+  font-family: PixelFont;
+  src: url(../fonts/NineteenNinetyThree-L1Ay1.ttf) ;
+  font-style: normal;
+  font-weight: 100;
 }
-body {
-  background-color: var(--main-bg-color);
-} */
+
 
 :root {
   --yellow: #fff72c;
@@ -21,5 +18,9 @@ body {
 
 body {
   background-color: var(--whitish);
+  font-family: PixelFont;
+  font-weight: 100;
 
 }
+
+
