@@ -23,4 +23,49 @@ body {
 
 }
 
+.fail-block{
+  background-color: black;
+  height: 700px;
+  margin-top:0px;
+  text-align: center;
+  color: var(--whitish);
+}
 
+.fail-tittle{
+  padding-top:100px;
+}
+
+.plant-chi-dead-img{
+  width: 20%;
+  margin-top: 100px;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+from {
+  transform: translateY(0px);
+}
+to {
+  transform: translateY(-30px);
+}
+}
+@-webkit-keyframes bounce {
+from {
+  transform: translateY(0px);
+}
+to {
+  transform: translateY(-20px);
+}
+}
+
+.button-fail-spot-try-again{
+  font-family: PixelFont;
+  background-color: var(--green);
+  margin-top: 30px;
+  width: 200px;
+  color: var(--whitish);
+  font-weight: 700;
+  font-size: larger;
+  height: 50px;
+}
