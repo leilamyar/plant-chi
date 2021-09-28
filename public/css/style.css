@@ -11,7 +11,6 @@
   --brown:#77412f;
   --pink:#eeacaf;
   --green:#009846;
-  --lightgreen: lightseagreen;
   --lightgrey: lightslategrey;
   --lightblue: lightsteelblue;
   --ff: PixelFont;
@@ -77,7 +76,7 @@ button,
   padding: 1rem 2rem;
   margin: auto;
   text-decoration: none;
-  background: linear-gradient(var(--lightgreen) 60%, var(--whitish));
+  background: linear-gradient(var(--green) 60%, var(--whitish));
   color: var(--whitish);
   font-family: var(--ff);
   font-weight: bold;
@@ -93,7 +92,7 @@ button:hover,
 button:focus,
 .btn:hover,
 .btn:focus {
-  background: var(--lightgreen);
+  background: var(--green);
 }
 
 button:focus,
