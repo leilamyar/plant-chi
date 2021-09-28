@@ -5,13 +5,21 @@
   font-weight: 100;
 }
 
-
 :root {
   --yellow: #fff72c;
   --whitish: #ebffff;
   --brown:#77412f;
   --pink:#eeacaf;
   --green:#009846;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 body {

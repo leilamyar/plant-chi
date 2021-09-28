@@ -1,8 +1,8 @@
 
-<footer>
+<!-- <footer>
   <div rel="author" id="copyright">Created with &hearts; by Barbara, Nisrine and Leila.
   </div>
-</footer>
+</footer> -->
 
 <!-- <script src="public/js/script.js"></script> --> 
 </body>
