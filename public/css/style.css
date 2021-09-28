@@ -11,6 +11,9 @@
   --brown:#77412f;
   --pink:#eeacaf;
   --green:#009846;
+  --lightgreen: lightseagreen;
+  --lightgrey: lightslategrey;
+  --lightblue: lightsteelblue;
   --ff: PixelFont;
 }
 
@@ -74,8 +77,8 @@ button,
   padding: 1rem 2rem;
   margin: auto;
   text-decoration: none;
-  background: linear-gradient(lightseagreen 60%, #fff);
-  color: #fff;
+  background: linear-gradient(var(--lightgreen) 60%, var(--whitish));
+  color: var(--whitish);
   font-family: var(--ff);
   font-weight: bold;
   letter-spacing: 0.2ch;
@@ -83,14 +86,14 @@ button,
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, 
-              transform 150ms ease;
+  transform 150ms ease;
 }
 
 button:hover,
 button:focus,
 .btn:hover,
 .btn:focus {
-  background: mediumseagreen;
+  background: var(--lightgreen);
 }
 
 button:focus,
@@ -106,18 +109,18 @@ button:active,
 
 input:focus {
   outline: none;
-  border-bottom: 0.1rem solid lightslategrey;
+  border-bottom: 0.1rem solid var(--lightgrey);
 }
 
 input {
   border:none;
   outline-width: 0;
-  border-bottom: 0.1rem solid lightsteelblue;
+  border-bottom: 0.1rem solid var(--lightblue);
   padding: 0.5rem;
 }
 
 ::placeholder {
-  color: lightslategrey;
+  color: var(--lightgrey);
   text-align: center;
 }
 
