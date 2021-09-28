@@ -1,10 +1,8 @@
 <main class="flex-c-col">
   <!-- COLUMN 1 = plant-chi img + text -->
-  <div>
-    <div class="scale-img">
-      <img src="public/images/plant-chi_dead.png" alt="Plant-chi gives instructions">
-    </div>
-    <p>Choose the perfect spot for me</p>
+  <div class="flex-c-row flex-aligned-left">
+      <img class="plantchi-head" src="public/images/plant-chi_dead.png" alt="Plant-chi gives instructions">
+    <p class="plantchi-speaks">Choose the perfect spot for me</p>
   </div>
   <!-- COLUMN 2 = room img -->
   <!-- COLUMN 2 = grid ON TOP of room img -->

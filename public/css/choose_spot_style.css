@@ -2,9 +2,21 @@
 .flex-c-col {
   display: flex;
   flex-flow: column nowrap;
-  width: fit-content;
+  /* width: fit-content; */
+}
+.flex-c-row {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-img {
+.flex-aligned-left {
+  justify-content: left;
+}
+
+.plantchi-head {
   width: 15%;
+}
+
+.plantchi-speaks {
+  padding-left: 1rem;
 }
