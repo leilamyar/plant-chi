@@ -34,12 +34,13 @@ button,
 .btn {
   display: block;
   border: none;
+  border-radius: 5px;
   width: max-content;
   padding: 1rem 2rem;
   margin: auto;
   text-decoration: none;
-  background: lightseagreen;
-  color: #ffffff;
+  background: linear-gradient(lightseagreen 60%, #fff);
+  color: #fff;
   font-family: sans-serif;
   font-weight: bold;
   letter-spacing: 0.2ch;
