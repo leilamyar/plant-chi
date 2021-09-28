@@ -19,7 +19,7 @@
 
     <div class="aligned-center">Already have an account? <a href="?section=signin">Sign in</a></div>
 
-    <a href="?section=play" class="btn">PLAY</a>
+    <a href="?section=choose-a-plant" class="btn">PLAY</a>
 
     <script src="public/js/login.js"></script>
 
