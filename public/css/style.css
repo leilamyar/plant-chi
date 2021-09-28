@@ -23,21 +23,24 @@ body {
 
 }
 
+/* fail page */
+
 .fail-block{
   background-color: black;
   height: 700px;
-  margin-top:0px;
   text-align: center;
   color: var(--whitish);
+  width: 100%;
 }
 
 .fail-tittle{
-  padding-top:100px;
+  padding-top:50px;
 }
 
 .plant-chi-dead-img{
-  width: 20%;
-  margin-top: 100px;
+  width: 15%;
+  margin-top: 50px;
+  margin-bottom: 30px;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
 }
@@ -59,13 +62,4 @@ to {
 }
 }
 
-.button-fail-spot-try-again{
-  font-family: PixelFont;
-  background-color: var(--green);
-  margin-top: 30px;
-  width: 200px;
-  color: var(--whitish);
-  font-weight: 700;
-  font-size: larger;
-  height: 50px;
-}
+
