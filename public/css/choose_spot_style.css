@@ -1,0 +1,10 @@
+/* Choose a spot style */
+.flex-c-col {
+  display: flex;
+  flex-flow: column nowrap;
+  width: fit-content;
+}
+
+img {
+  width: 15%;
+}
