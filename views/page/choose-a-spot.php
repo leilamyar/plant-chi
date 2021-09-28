@@ -5,6 +5,9 @@
   <!-- COLUMN 2 = room img -->
   <!-- COLUMN 2 = grid ON TOP of room img -->
   <div class="choose-spot-grid">
+    <img src="" alt="A room with 3 possible spots for Plant-chi">
+  </div>
+  <div class="choose-spot-grid">
     
   </div>
 </main>
