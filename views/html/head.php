@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="public/css/style.css">
 
   <link rel="stylesheet" href="public/css/choose_plant.css">
+  <link rel="stylesheet" href="public/css/choose_spot.css">
 </head>
 <body>
   
