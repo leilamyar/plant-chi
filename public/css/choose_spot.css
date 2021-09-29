@@ -1,0 +1,72 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.plantchi-speaks-flex-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 1rem;
+}
+#plant-chi-img {
+  width: 25vh;
+  display: inline-block;
+}
+.text {
+  align-self: center;
+  padding-left: 2ch;
+}
+.room-c {
+  height: 100%;
+  text-align: end;
+}
+.room-img {
+  position: absolute;
+  height: 80%;
+  right: 15rem;
+  bottom: 5rem;
+}
+.spot {
+  width: 23px;
+  height: 18px;
+  border-radius: 15px;
+  background-color: var(--yellow);
+}
+.spot:hover,
+.spot:focus {
+  background: var(--pink);
+}
+.spot:active {
+  transform: scale(1);
+}
+#good-spot {
+  position: absolute;
+  right: 278px;
+  bottom: 245px;
+}
+#wrong-spot-1 {
+   position: absolute;
+   right: 407px;
+   bottom: 463px;
+}
+#wrong-spot-2 {
+   position: absolute;
+   right: 570px;
+   bottom: 325px;
+}
+
+@media screen and (max-width: 480px) {
+  .room-c {
+    height: 100%;
+    background-color: violet;
+    text-align: end;
+  }
+  .room-img {
+    position: absolute;
+    height: 70%;
+    right: 0px;
+    bottom: 0px;
+  }
+}
