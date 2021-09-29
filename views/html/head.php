@@ -8,6 +8,7 @@
   <title>Plant-chi</title>
   <link rel="stylesheet" href="public/css/style.css">
   <link rel="stylesheet" href="public/css/fail_spot.css">
+  <link rel="stylesheet" href="public/css/choose_spot.css">
 </head>
 <body>
   
