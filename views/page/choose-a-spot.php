@@ -14,8 +14,12 @@
     <a href="?section=you-win">
       <div class="spot" id="good-spot">&nbsp;</div>
     </a>
-    <div class="spot" id="wrong-spot-1">&nbsp;</div>
-    <div class="spot" id="wrong-spot-2">&nbsp;</div>
+    <a href="?section=fail-spot">
+      <div class="spot" id="wrong-spot-1">&nbsp;</div>
+    </a>
+    <a href="?section=fail-spot">
+      <div class="spot" id="wrong-spot-2">&nbsp;</div>
+    </a>
   </div>
 </main>
 <script src="public/js/choose-a-spot.js"></script>
