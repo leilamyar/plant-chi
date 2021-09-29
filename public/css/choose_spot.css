@@ -31,9 +31,9 @@ img {
   bottom: 5rem;
 }
 .spot {
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
+  width: 23px;
+  height: 18px;
+  border-radius: 15px;
   background-color: var(--yellow);
 }
 .spot:hover,
@@ -45,15 +45,20 @@ img {
 }
 #good-spot {
   position: absolute;
-  right: 280px;
+  right: 278px;
   bottom: 245px;
 }
- #wrong-spot-1 {
+#wrong-spot-1 {
+   position: absolute;
+   right: 407px;
+   bottom: 463px;
+}
+#wrong-spot-2 {
+   position: absolute;
+   right: 570px;
+   bottom: 325px;
+}
 
- }
- #wrong-spot-2 {
-
- }
 @media screen and (max-width: 480px) {
   .room-c {
     height: 100%;

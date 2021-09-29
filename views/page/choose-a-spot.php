@@ -12,8 +12,8 @@
   <div class="room-c">
     <!-- <div class="room-img"></div> -->
     <div class="spot" id="good-spot">&nbsp;</div>
-    <div class="spot" id="wrong-spot">&nbsp;</div>
-    <div class="spot" id="wrong-spot">&nbsp;</div>
+    <div class="spot" id="wrong-spot-1">&nbsp;</div>
+    <div class="spot" id="wrong-spot-2">&nbsp;</div>
   </div>
 </main>
 <script src="public/js/choose-a-spot.js"></script>
