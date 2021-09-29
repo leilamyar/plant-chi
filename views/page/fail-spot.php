@@ -1,7 +1,7 @@
 <div class="fail-block">
     <h1 class="fail-title">Dude, you killed me.</h1>
 
-    <img class="plant-chi-dead-img" src="public/images/plant-chi_dead.png" alt="dead plant-chi">
+    <img class="plant-chi-dead-img" src="public/images/plant-chi/plant-chi_dead.png" alt="dead plant-chi">
 
     <br>
     
