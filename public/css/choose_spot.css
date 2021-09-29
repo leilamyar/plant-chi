@@ -1,0 +1,16 @@
+.spot-choice-c {
+  width: 100%;
+  height: 100%;
+}
+.instructions-c {
+  width: 50%;
+}
+/* .img-c {
+  width: 50px;
+} */
+.plant-chi-img {
+  /* max-width: 100%;
+  height: auto; */
+  display: inline-block;
+  object-fit: scale-down;
+}
