@@ -14,10 +14,13 @@
         include ("controller/choose-a-room-controller.php");
         break;
       case 'choose-a-spot':
-        include("controller/choose-a-spot-controller.php");
+        include("views/page/choose-a-spot.php");
         break;
       case 'fail-spot':
           include("controller/fail-spot-controller.php");
+          break;
+      case 'you-win':
+          include("views/page/you-win.php");
           break;
 
       default:

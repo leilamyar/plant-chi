@@ -11,7 +11,9 @@
   <!-- COLUMN 2 = grid ON TOP of room img -->
   <div class="room-c">
     <!-- <div class="room-img"></div> -->
-    <div class="spot" id="good-spot">&nbsp;</div>
+    <a href="?section=you-win">
+      <div class="spot" id="good-spot">&nbsp;</div>
+    </a>
     <div class="spot" id="wrong-spot-1">&nbsp;</div>
     <div class="spot" id="wrong-spot-2">&nbsp;</div>
   </div>
