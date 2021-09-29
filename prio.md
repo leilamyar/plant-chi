@@ -9,7 +9,7 @@ __!!! This is our project's jargon, ie : USE THOSE TERMS when naming variables, 
 - room choice
 - spot choice
   - if NOK : page fail
-  - if OK : page success room
+  - if OK : page success
 - end of game "You did it!"
 - water part (?)
 

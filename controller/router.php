@@ -19,8 +19,8 @@
       case 'fail-spot':
           include("controller/fail-spot-controller.php");
           break;
-      case 'you-win':
-          include("views/page/you-win.php");
+      case 'success-spot':
+          include("views/page/success-spot.php");
           break;
 
       default:
