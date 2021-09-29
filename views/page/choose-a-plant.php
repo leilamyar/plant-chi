@@ -1,36 +1,39 @@
+<div class="choose-your-plant">
+    <h1 class="title-choose-plant"> Choose your plant &#10084; </h1>
+    <div class="container-choose-plant"> 
 
-<section>
-    <h1 class="tittle-choose-plant"> Choose your plant &#10084; </h1>
+        <div id="first-plant" class="box-choose-plant">
+            <p class="box-title"> Tutorial: Aloe Vera</p>
+            <img class="img-choose-plant" src="public/images/plant-chi/plant-chi_neutral.png" alt="Aloe Vera">
+        </div>
+        <div class="box-choose-plant">
+            <p class="box-title"> lvl 1 - locked</p>
+            <img class="img-choose-plant" src="public/images/cactus_locked.PNG" alt="Aloe Vera">
+        </div>
+        <div class="box-choose-plant-no-img">
+            <p class="box-title"> lvl 2 - locked</p>
+            <p class="p-dots">...</p> 
+        </div>
+        <div class="box-choose-plant-no-img">
+            <p class="box-title"> lvl 3 - locked</p>
+            <p class="p-dots">...</p>
+        </div> 
+    </div>
+</div>
+
+<div class="plant-choosed">
+    <div class="plant-chi-speaks">
+        <a href="?section=choose-a-room">
+            <img class="img-plant-chi-presentation" src="public/images/plant-chi/plant-chi_neutral.png" alt="Plant-chi talk">
+        </a>
+        <a class="plant-chi-presentation" href="?section=choose-a-room">
+            <p>Hello {username}, I’m Aloe Vera :D<br><br>I’m so happy to have a new friend!<br>Let me tell you what i need to keep me alive :)</p>
+        </a>
+    </div>
+</div>
+
     
-    <article>
-        <h2 class="tittle-two-choose-plant"> Tutorial: Aloe Vera</h2>
-        <img class="img-choose-plant" src="public/images/bird_intro.png" alt="Aloe Vera">
-    </article>
-
-
-    <article>
-        <h2 class="tittle-two-choose-plant"> lvl 1 - locked</h2>
-        <img class="img-choose-plant" src="public/images/bird_intro.png" alt="Aloe Vera">
-    </article>
-
-
-    <article>
-        <h2> lvl 2 - locked</h2>
-        <p>...</p>
-    </article>
-
-
-    <article>
-        <h2> lvl 3 - locked</h2>
-        <p>...</p>
-    </article>
-
-</section>
- 
- 
- 
  
  <!-- +message when the user choosed the plant! --> 
- <p>I am choose a plant</p>
 
  <script src="public/js/choose-a-plant.js"></script>
