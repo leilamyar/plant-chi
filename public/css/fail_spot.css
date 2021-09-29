@@ -6,18 +6,18 @@
     color: var(--whitish);
     width: 100%;
     margin-top: -30px;
-    padding-bottom: 30px;
+    padding-bottom: 5%;
     /* I had to do this like this the screen will be completely black. Or a band of the background color whitish will shows up... */
   }
   
-  .fail-tittle{
-    padding-top:90px;
-    padding-bottom: 30px;
+  .fail-title{
+    padding-top:5%;
+    padding-bottom: 5%;
   }
   
   .plant-chi-dead-img{
     width: 15%;
-    margin-bottom: 30px;
+    margin-bottom: 2%;
     animation: bounce 1s infinite alternate;
     /* Like this the image will never stop bouncing*/
   }
