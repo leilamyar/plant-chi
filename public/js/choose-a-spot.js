@@ -8,7 +8,7 @@ spots.forEach((spot) => {
     const plantchiImg = document.getElementById('plant-chi-img');
     plantchiImg.remove();
     const imgEl = document.createElement('img');
-    imgEl.src = 'public/images/plant-chi_neutral.png';
+    imgEl.src = 'public/images/plant-chi/plant-chi_neutral.png';
     imgEl.setAttribute('id', 'plant-chi-img');
     textEl.parentNode.insertBefore(imgEl, textEl);
   });
@@ -19,7 +19,7 @@ wrongSpots.forEach((wrongSpot) => {
     const plantchiImg = document.getElementById('plant-chi-img');
     plantchiImg.remove();
     const imgEl = document.createElement('img');
-    imgEl.src = 'public/images/plant-chi_dead.png';
+    imgEl.src = 'public/images/plant-chi/plant-chi_unhappy.png';
     imgEl.setAttribute('id', 'plant-chi-img');
     textEl.parentNode.insertBefore(imgEl, textEl);
   });
@@ -28,7 +28,7 @@ goodSpot.addEventListener('mouseover', () => {
   const plantchiImg = document.getElementById('plant-chi-img');
   plantchiImg.remove();
   const imgEl = document.createElement('img');
-  imgEl.src = 'public/images/plant-chi_happy.png';
+  imgEl.src = 'public/images/plant-chi/plant-chi_happy.png';
   imgEl.setAttribute('id', 'plant-chi-img');
   textEl.parentNode.insertBefore(imgEl, textEl);
 });
