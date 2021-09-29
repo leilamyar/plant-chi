@@ -1,0 +1,8 @@
+.ground {
+  background-color: var(--brown);
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
