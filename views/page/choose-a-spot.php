@@ -7,7 +7,9 @@
     <p class="text">Choose the right spot for me &#60;3 </p>
   </div>
   <!-- COLUMN 2 = room img -->
-     
+  <div class="room-c">
+    <img class="room-img" src="public/images/rooms/bright_no_direct_sun.png" alt="Image of a bright room, with no direct sunlight">
+  </div>
   <!-- COLUMN 2 = grid ON TOP of room img -->
 
 </main>

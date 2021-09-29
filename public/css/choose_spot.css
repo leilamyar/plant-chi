@@ -1,18 +1,48 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .instructions-flex-c {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  /* margin-top: 0.5rem;
+  margin-left: 0.5rem; */
+  margin: 1rem;
 }
 .plant-chi-img {
-  width: 20vh;
+  width: 25vh;
   display: inline-block;
-  max-width: 100%;
-  height: auto;
 }
 .text {
   align-self: center;
   padding-left: 2ch;
+}
+.room-c {
+  height: 100%;
+  background-color: violet;
+  text-align: end;
+}
+.room-img {
+  position: absolute;
+  height: 80%;
+  right: 15rem;
+  bottom: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+  
+  .room-c {
+    height: 100%;
+    background-color: violet;
+    text-align: end;
+  }
+  .room-img {
+    position: absolute;
+    height: 70%;
+    right: 0px;
+    bottom: 0px;
+  }
 }
