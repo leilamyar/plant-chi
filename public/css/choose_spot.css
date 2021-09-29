@@ -42,19 +42,22 @@ img {
   transform: scale(1);
 }
 #good-spot {
-  position: absolute;
-  right: 278px;
-  bottom: 245px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  left: 300px;
+  top: 100px;
 }
 #wrong-spot-1 {
-   position: absolute;
+   /* position: absolute;
    right: 407px;
-   bottom: 463px;
+   bottom: 463px; */
 }
 #wrong-spot-2 {
-   position: absolute;
+   /* position: absolute;
    right: 570px;
-   bottom: 325px;
+   bottom: 325px; */
 }
 
 @media screen and (max-width: 480px) {
