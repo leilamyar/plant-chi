@@ -1,0 +1,60 @@
+@font-face {
+    font-family: PixelFont;
+    src: url(../fonts/NineteenNinetyThree-L1Ay1.ttf) ;
+    font-style: normal;
+    font-weight: 100;
+}
+  
+:root {
+    --yellow: #fff72c;
+    --whitish: #ebffff;
+    --brown:#77412f;
+    --pink:#eeacaf;
+    --green:#009846;
+}
+  
+*{
+    box-sizing:border-box;
+}
+  
+html{
+    font-size:15px;
+    width:100%;
+}
+  
+  
+body {
+    width:100%;
+    padding:0;
+    margin:0;
+    background-color: var(--whitish);
+    font-family: PixelFont;
+    font-weight: 100;
+  
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 50px;
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 60px;
+    padding: 5px;
+    justify-content:space-around;
+  }
+  
+  .grid-item{
+    background-color: #eeacaf;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .grid-item img{
+    height: 100%;
+    /* width: 100% */;
+  }
+  
+  footer element{
+    clear:both;
+  }

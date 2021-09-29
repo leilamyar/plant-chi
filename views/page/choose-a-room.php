@@ -3,8 +3,8 @@
     <nav></nav>
 </header>
 <div class="grid-container">
-    <div class="grid-item">Room1</div>
-    <div class="grid-item">Room2</div>
+    <div class="grid-item"><img src="public/images/garden.png" alt="garden"></div>
+    <div class="grid-item"><img src="public/images/room.png" alt="room"></div>
     <div class="grid-item">Room3</div>
     <div class="grid-item">Room4</div>
 </div>

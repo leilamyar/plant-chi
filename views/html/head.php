@@ -7,6 +7,7 @@
   <!-- viewport meta data hereabove : for mobile config -->
   <title>Plant-chi</title>
   <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="public/css/choose-a-room.css">
 </head>
 <body>
   
