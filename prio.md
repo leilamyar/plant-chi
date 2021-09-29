@@ -9,11 +9,12 @@ __!!! This is our project's jargon, ie : USE THOSE TERMS when naming variables, 
 - room choice
 - spot choice
   - if NOK : page fail
-- ???
+  - if OK : page success room
 - end of game "You did it!"
 - water part (?)
 
 ## PRIO 2
+- Responsiveness
 - voucher (?)
 
 ## PRIO 3
