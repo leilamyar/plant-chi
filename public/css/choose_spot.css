@@ -22,7 +22,6 @@ img {
 }
 .room-c {
   height: 100%;
-  background-color: violet;
   text-align: end;
 }
 .room-img {
@@ -31,9 +30,31 @@ img {
   right: 15rem;
   bottom: 5rem;
 }
+.spot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: var(--yellow);
+}
+.spot:hover,
+.spot:focus {
+  background: var(--pink);
+}
+.spot:active {
+  transform: scale(1);
+}
+#good-spot {
+  position: absolute;
+  right: 280px;
+  bottom: 245px;
+}
+ #wrong-spot-1 {
 
+ }
+ #wrong-spot-2 {
+
+ }
 @media screen and (max-width: 480px) {
-  
   .room-c {
     height: 100%;
     background-color: violet;
