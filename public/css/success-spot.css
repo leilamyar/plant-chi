@@ -1,13 +1,30 @@
-.ground {
+/* .ground {
   background-color: var(--brown);
   height: 30%;
   width: 100%;
   position: absolute;
   left: 0px;
   bottom: 0px;
+} */
+
+.success-grid-c {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px 400px;
+  grid-template-rows: 250px 200px 250px 250px;
+  align-items: center;
+  /* items (ie, grid cells) content centered in the middle */
 }
 
-.plantchi-c {
-  margin: auto;
-  width: fit-content;
+#plantchi-success-img {
+  display: block;
+  height: 350px;
+}
+
+#grid-item-1 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+#grid-item-2 {
+  grid-row-start: 3;
+  grid-column-start: 3;
 }
