@@ -11,24 +11,27 @@
   display: grid;
   grid-template-columns: 400px 400px 400px 400px 400px;
   grid-template-rows: 250px 200px 250px 250px;
+  /* items (ie, grid cells) centered in the middle */
   align-items: center;
-  /* items (ie, grid cells) content centered in the middle */
   position: relative;
-  /* Position set because if not mentionned, z-index won't work */
+  /* Position set because if not mentionned, z-index won't work, because .ground has a position (and positioned elements always come on top of non-
+  positioned elements */
   z-index: 100;
   /* z-index of high value to put this element on top of anything else */
 }
 
 #plantchi-success-img {
   display: block;
-  height: 350px;
+  height: 25%;
 }
 
 #grid-item-1 {
   grid-row-start: 3;
   grid-column-start: 2;
 }
+
 #grid-item-2 {
   grid-row-start: 3;
   grid-column-start: 3;
+  text-align: center;
 }
