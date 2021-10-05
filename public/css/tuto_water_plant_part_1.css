@@ -1,0 +1,11 @@
+.gauge-part-container{
+    display:grid;
+    grid-template-rows: 10% 10% ;
+}
+
+.img-gauge-thirsty{
+    width: 4%;
+}
+.img-check{
+    width: 3%;
+}

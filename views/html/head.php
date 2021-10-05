@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="public/css/style.css">
   <link rel="stylesheet" href="public/css/fail_spot.css">
   <link rel="stylesheet" href="public/css/choose_spot.css">
-  <link rel="stylesheet" href="public/css/tuto_water_pant_part_1.css">
+  <link rel="stylesheet" href="public/css/tuto_water_plant_part_1.css">
 </head>
 <body>
   
