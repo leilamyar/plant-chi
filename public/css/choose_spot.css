@@ -10,11 +10,11 @@ img {
   align-content: center;
   margin: 1rem;
 }
-#plant-chi-img {
+#plantchi-spot-img {
   width: 25vh;
   display: inline-block;
 }
-.text {
+.plantchi-text {
   align-self: center;
   padding-left: 2ch;
 }
