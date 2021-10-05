@@ -22,6 +22,9 @@
       case 'success-spot':
           include("views/page/success-spot.php");
           break;
+      case 'tuto-water-part-1':
+        include("views/page/tuto-water-part/water-part-1.php");
+        break;
 
       default:
         echo "Cette page n'existe pas.";
