@@ -1,18 +1,8 @@
 console.log("Hello Choose a room");
 
-/* document.getElementById("wrongRoom").addEventListener("mouseover", mouseOver);
-document.getElementById("wrongRoom").addEventListener("mouseout", mouseOut);
-
-function mouseOver() {
-  document.getElementById("wrongRoom").;
-}
-
-function mouseOut() {
-  document.getElementById("demo").style.color = "black";
-} */
 
 const wrongRoom = document.querySelector("#wrong-room-1");
-const goodRoom = document.querySelector("#good-room");
+const rightRoom = document.querySelector("#rightRoom");
 const roomsArray = document.querySelectorAll(".grid-item");
 const textEl = document.querySelector('.text-plant');
 
@@ -38,11 +28,11 @@ wrongRoom.addEventListener('mouseover', () => {
     textEl.parentNode.insertBefore(imgEl, textEl);
 });
 
-/* goodRoom.addEventListener('mouseover', () => {
-  const plantchiImg = document.getElementById('righRoom');
-  plantchiImg.remove();
+rightRoom.addEventListener('mouseover', () => {
+  const plantchiImgNeutral2 = document.getElementById('plant-chi_neutral');
+  plantchiImgNeutral2.remove();
   const imgEl = document.createElement('img');
   imgEl.src = 'public/images/plant-chi/plant-chi_happy.png';
   imgEl.setAttribute('id', 'plant-chi-img');
   textEl.parentNode.insertBefore(imgEl, textEl);
-});  */
+});  
