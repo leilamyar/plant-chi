@@ -1,11 +1,56 @@
+.water-and-stars{
+    margin-top:1%;
+}
+
+.gauge{
+    margin-left: 2%;
+    float: left;
+}
+
+.img-gauge{
+    width: 5%;
+    float: left;
+    margin-top: 1%;
+}
+
 .gauge-part-container{
     display:grid;
     grid-template-rows: 10% 10% ;
+    grid-template-columns: 10%;
 }
 
-.img-gauge-thirsty{
+.img-check{
+    width:2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* I had to do this to get a "perfect" emplacement even if it still not perfect... */
+}
+
+.img-dead-too-much-water-face, .img-too-much-water-face, .img-cute-face, .img-need-water-face, .img-dead-no-more-water-face{
     width: 4%;
 }
-.img-check{
-    width: 3%;
+
+.img-too-much-water-face{
+    margin-top: 1%;
 }
+
+.img-cute-face{
+    margin-bottom: 0.5%;
+}
+
+.img-dead-no-more-water-face{
+    margin-top: 1%;
+}
+/* ************Stars part!***************** */
+
+.stars-images{
+    width: 10%;
+    float: left;
+}
+
+.container-stars-part{
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    align-self: flex-end;
+}
+
