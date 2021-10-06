@@ -25,17 +25,38 @@
     </div>
 
     <div class="stars-part">
-        <div class="container-stars-part">
-            <div class="stars-images">
-                <img class="imgGreyStar1" src="public/images/grey_stars/grey_star_1.png" alt="grey star 1">
-                <img class="imgGreyStar2" src="public/images/grey_stars/grey_star_2.png" alt="grey star2">
-                <img class="imgGreyStar3" src="public/images/grey_stars/grey_star_3.png" alt="grey star3">
-                <img class="imgGreyStar4" src="public/images/grey_stars/grey_star_4.png" alt="grey star4">
-                <img class="imgGreyStar5" src="public/images/grey_stars/grey_star_5.png" alt="grey star 5">
-            </div>
+        <div>
+            <img class="imgGreyStar1" src="public/images/grey_stars/grey_star_1.png" alt="grey star 1">
+        </div>
+        <div>
+            <img class="imgGreyStar2" src="public/images/grey_stars/grey_star_2.png" alt="grey star2">
+        </div>
+        <div>
+            <img class="imgGreyStar3" src="public/images/grey_stars/grey_star_3.png" alt="grey star3">
+        </div>
+        <div>
+            <img class="imgGreyStar4" src="public/images/grey_stars/grey_star_4.png" alt="grey star4">
+        </div>
+        <div>
+            <img class="imgGreyStar5" src="public/images/grey_stars/grey_star_5.png" alt="grey star 5">
         </div>
     </div>
+
+    <div class="plant-grid-c">
+    <!-- Plant-chi img -->
+    <div id="grid-item-1">
+        <img id="plantchi-success-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">
+    </div>
+    <!-- Plant-chi text (to the right of the img) -->
+    <div id="grid-item-2">
+        <p>That spot is peeerfect!</p>
+        <p>This room is bright and</p>
+        <p>I’m far from the window...</p>
+    </div>
+    </div>
+    <div class="ground">&nbsp;</div>
 </div>
+
 
 
 

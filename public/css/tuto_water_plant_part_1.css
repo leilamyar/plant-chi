@@ -1,5 +1,7 @@
 .water-and-stars{
     margin-top:1%;
+    display: grid;
+    grid-template-columns: 80% 20%;
 }
 
 .gauge{
@@ -16,7 +18,6 @@
 .gauge-part-container{
     display:grid;
     grid-template-rows: 10% 10% ;
-    grid-template-columns: 10%;
 }
 
 .img-check{
@@ -38,19 +39,31 @@
     margin-bottom: 0.5%;
 }
 
-.img-dead-no-more-water-face{
-    margin-top: 1%;
-}
 /* ************Stars part!***************** */
 
-.stars-images{
-    width: 10%;
-    float: left;
-}
-
-.container-stars-part{
+.stars-part{
     display:grid;
     grid-template-columns: 10% 10% 10% 10% 10%;
-    align-self: flex-end;
+    grid-gap:5%;
+    height: 10%;
+    margin-top: 10%;
 }
 
+  
+
+.plant-grid-c {
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30%;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* items (ie, grid cells) centered in the middle */
+    align-items: center;
+    position: relative;
+    /* Position set because if not mentionned, z-index won't work, because .ground has a position (and positioned elements always come on top of non-
+    positioned elements */
+    z-index: 100;
+    /* z-index of high value to put this element on top of anything else */
+  }
+
+  @media (max-width: ) {
+      
+  }
