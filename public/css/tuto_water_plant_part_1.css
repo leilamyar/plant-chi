@@ -39,7 +39,7 @@
     margin-bottom: 0.5%;
 }
 
-/* ************Stars part!***************** */
+/* ************ Stars part! ***************** */
 
 .stars-part{
     display:grid;
@@ -49,8 +49,7 @@
     margin-top: 10%;
 }
 
-  
-
+  /* ****** Plant and ground part ***** */
 .plant-grid-c {
     display: grid;
     grid-template-columns: 30% 30% 30% 30%;
@@ -64,6 +63,9 @@
     /* z-index of high value to put this element on top of anything else */
   }
 
-  @media (max-width: ) {
-      
+  #plant-chi-talk {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    text-align: center;
+    padding-bottom: 5em;
   }

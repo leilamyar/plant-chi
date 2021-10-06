@@ -45,21 +45,16 @@
     <div class="plant-grid-c">
     <!-- Plant-chi img -->
     <div id="grid-item-1">
-        <img id="plantchi-success-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">
+        <img id="plantchi-mood-img" src="public/images/plant-chi/plant-chi_need_water.png" alt="Plant-chi is happy with the spot">
     </div>
     <!-- Plant-chi text (to the right of the img) -->
-    <div id="grid-item-2">
-        <p>That spot is peeerfect!</p>
-        <p>This room is bright and</p>
-        <p>I’m far from the window...</p>
+    <div id="plant-chi-talk">
+        <p>Hold the space bar</p>
+        <p>to give me water,</p>
+        <p>pleeease <3</p>
     </div>
     </div>
     <div class="ground">&nbsp;</div>
 </div>
-
-
-
-
-
 
 <script src="public/js/tuto-water-part/water-part-1.js"></script>
