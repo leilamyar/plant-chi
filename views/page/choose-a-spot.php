@@ -1,8 +1,8 @@
 <main class="spot-choice-c">
   <!-- COLUMN 1 = plant-chi img + text -->
   <div class="plantchi-speaks-flex-c">
-      <img id="plant-chi-img" src="public/images/plant-chi/plant-chi_neutral.png" alt="Plant-chi gives instructions">
-    <p class="text">Choose the right spot for me &#60;3 </p>
+      <img id="plantchi-spot-img" src="public/images/plant-chi/plant-chi_neutral.png" alt="Plant-chi gives instructions">
+    <p class="plantchi-text">Choose the right spot for me &#60;3 </p>
   </div>
   <!-- COLUMN 2 = room img -->
   <div class="room-c">

@@ -8,12 +8,13 @@
 :root {
   --yellow: #fff72c;
   --whitish: #ebffff;
-  --brown:#77412f;
-  --pink:#eeacaf;
-  --green:#009846;
+  --brown: #77412f;
+  --pink: #eeacaf;
+  --green: #009846;
   --lightgrey: lightslategrey;
   --lightblue: lightsteelblue;
   --ff: PixelFont;
+  --black: #000000;
 }
 
 html {
