@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div class="plant-choosed">
+<div class="plant-choosen">
     <div class="plant-chi-speaks">
         <a href="?section=choose-a-room">
             <img class="img-plant-chi-presentation" src="public/images/plant-chi/plant-chi_neutral.png" alt="Plant-chi talk">
