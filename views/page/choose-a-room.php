@@ -1,4 +1,3 @@
-<p>I am choose a room</p>
 <div class="header">
     <div class="inner-header" id="anchorCommentContainer">
         <div class="logo-container" id="plantchiCommentContainer">
