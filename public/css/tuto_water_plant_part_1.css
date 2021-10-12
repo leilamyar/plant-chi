@@ -71,5 +71,6 @@
   }
 
   .look-gauge{
-      width: 10%;
+    width: 70;
+    font-size:larger; 
   }
