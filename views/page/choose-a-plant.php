@@ -8,7 +8,7 @@
         </div>
         <div class="box-choose-plant">
             <p class="box-title"> lvl 1 - locked</p>
-            <img class="img-choose-plant" src="public/images/cactus_locked.PNG" alt="Aloe Vera">
+            <img class="img-choose-plant" src="public/images/cactus_locked.png" alt="Aloe Vera">
         </div>
         <div class="box-choose-plant-no-img">
             <p class="box-title"> lvl 2 - locked</p>
