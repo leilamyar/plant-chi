@@ -32,20 +32,9 @@ roomsArray.forEach((room) => {
     neutralStateH1.innerText = "Choose the right room for me."
     neutralStateH1.setAttribute('class', 'text-plant');
     neutralStateH1.setAttribute('id', 'textPlant');
-    //TODO Discover how to add text to H1 I just created
     neutralState.appendChild(neutralStateImg);
     neutralState.appendChild(neutralStateH1);
   
-
-
-
-    /* textEl.parentNode.insertBefore(imgEl, textEl); */
-
-    //old way of adding image(not in container and won't stop)
-    /* const imgEl = document.createElement('img');//<img>
-    imgEl.src = 'public/images/plant-chi/plant-chi_neutral.png';
-    imgEl.setAttribute('id', 'plant-chi_neutral');
-    textEl.parentNode.insertBefore(imgEl, textEl); */
 
     
   });
@@ -79,43 +68,6 @@ wrongRoom.addEventListener('mouseenter', () => {
     anchorComment.appendChild(neutralState);
 
 
-    
-    //old way of removing text
-
-    /* const plantchiTextSadGet = document.
-    getElementById('textPlant');
-    if(document.
-      getElementById('textPlant');)
-    plantchiTextSadGet.remove(); */ 
-
-    //replace 
-
-    
-    /* const plantchiTextSadReplace = document.createElement('h1');
-    const newNode=document.createTextNode("Not this one...Or I will Die!")
-    newNode.appendChild("logo-container");
-
-    
-    document.getElementById("logo-container").appendChild(newNode);
-
-    console.log(newNode);
-
-    const imgEl = document.createElement('img');//<img>
-
-    imgEl.src = 'public/images/plant-chi/plant-chi_unhappy.png';
-    imgEl.setAttribute('id', 'plant-chi_neutral'); */
-
-    /* textEl.appendChild(imgEl, textEl); */
-
-  ////////////////////////////
-    /* const plantchiTextSadGet = document.
-    getElementById('textPlant');
-    plantchiTextSadGet.remove();
-    const plantchiTextSadReplace = document.createElement('h2');//<h2>
-    plantchiTextSadReplace.innerText = 'All Good';
-    plantchiTextSadReplace.setAttribute('id', 'plantchiTextSadReplace');
-    textEl.parentNode.insertBefore(plantchiTextSadReplace, textEl); */ 
-
 });
 
 
@@ -144,19 +96,7 @@ rightRoom.addEventListener('mouseover', () => {
 
     const anchorComment = document.getElementById("anchorCommentContainer");
     anchorComment.appendChild(neutralState);
-  /* const plantchiImgNeutral2 = document.getElementById('plant-chi_neutral');
-  plantchiImgNeutral2.remove();
-  const imgEl = document.createElement('img');
-  imgEl.src = 'public/images/plant-chi/plant-chi_happy.png';
-  imgEl.setAttribute('id', 'plant-chi_neutral');
-  textEl.parentNode.insertBefore(imgEl, textEl);
-///((////////////////////////))
-  const plantchiTextHappyGet = document.getElementById('plant-chi_neutral');
-  plantchiTextHappyGet.remove();
-  const plantchiTextHappyReplace = document.createElement('h2');
-  plantchiTextHappyReplace.innerText = 'Are we good or not?';
-  plantchiTextHappyReplace.setAttribute('id', 'plantchiTextHappyReplace');
-  textEl.parentNode.insertBefore(plantchiTextHappyReplace, textEl); */
+  
 
 
 });  
