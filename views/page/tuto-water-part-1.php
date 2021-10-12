@@ -41,11 +41,13 @@
             <img class="imgGreyStar5" src="public/images/grey_stars/grey_star_5.png" alt="grey star 5">
         </div>
     </div>
-
+    
+    
     <div class="plant-grid-c">
-    <!-- Plant-chi img -->
-    <div id="grid-item-1">
-        <img id="plantchi-mood-img" src="public/images/plant-chi/plant-chi_need_water.png" alt="Plant-chi is happy with the spot">
+        <!-- Plant-chi img -->
+        <p class="look-gauge">Look, I'm thirsty :(</p>
+        <div id="grid-item-1">
+            <img id="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_dead.png" alt="Plant-chi is happy with the spot">
     </div>
     <!-- Plant-chi text (to the right of the img) -->
     <div id="plant-chi-talk">
@@ -57,4 +59,4 @@
     <div class="ground">&nbsp;</div>
 </div>
 
-<script src="public/js/tuto-water-part/water-part-1.js"></script>
+<script src="public/js/water-part-1.js"></script>
