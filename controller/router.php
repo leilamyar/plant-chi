@@ -16,8 +16,8 @@
       case 'choose-a-spot':
         include("views/page/choose-a-spot.php");
         break;
-      case 'fail-spot':
-          include("controller/fail-spot-controller.php");
+      case 'fail-page':
+          include("controller/fail-page-controller.php");
           break;
       case 'success-spot':
           include("views/page/success-spot.php");
