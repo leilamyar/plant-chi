@@ -61,17 +61,21 @@
     positioned elements */
     z-index: 100;
     /* z-index of high value to put this element on top of anything else */
+    
   }
 
   #plant-chi-talk {
     grid-row-start: 3;
     grid-column-start: 3;
     text-align: center;
-    padding-bottom: 5em;
   }
 
   .look-gauge{
     width: 70;
     font-size: x-large;  
     margin-left: 15%;
+  }
+
+  .plant-chi-mood-img{
+      margin-bottom:20%;
   }
