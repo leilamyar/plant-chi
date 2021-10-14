@@ -19,6 +19,9 @@
   height: 90%;
   margin: 2rem;
 }
+.hidden {
+  display: none;
+}
 .kevin-body {
   display: flex;
   flex-direction: column;
