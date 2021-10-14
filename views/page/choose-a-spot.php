@@ -5,19 +5,28 @@
     <p class="plantchi-text">Choose the right spot for me &#60;3 </p>
   </div>
   <!-- COLUMN 2 = room img -->
-  <div class="room-c">
+  <!-- <div class="room-c">
     <img class="room-img" src="public/images/rooms/bright_no_direct_sun.png" alt="Image of a bright room, with no direct sunlight">
-  </div>
+  </div> -->
   <!-- COLUMN 2 = grid ON TOP of room img -->
-  <div class="room-c">
+  <!-- <div class="room-c"> -->
     <!-- <div class="room-img"></div> -->
-    <div class="spot" id="good-spot"><a href="?section=success-spot">&nbsp;</a></div>
+    <!-- <div class="spot" id="good-spot">
+      <a href="?section=success-spot">&nbsp;</a>
+    </div>
     <a href="?section=fail-spot">
       <div class="spot" id="wrong-spot-1">&nbsp;</div>
     </a>
     <a href="?section=fail-spot">
       <div class="spot" id="wrong-spot-2">&nbsp;</div>
-    </a>
-  </div>
+    </a> -->
+  <!-- </div> -->
+
+  <section class="kevin-body">
+    <div class="kevin-card">
+    <img class="kevin-card-image" src="public/images/rooms/bright_no_direct_sun.png" alt="">
+    </div>
+  </section>
+
 </main>
-<script src="public/js/choose-a-spot.js"></script>
+<!-- <script src="public/js/choose-a-spot.js"></scsript> -->

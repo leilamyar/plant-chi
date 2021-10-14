@@ -19,14 +19,52 @@ img {
   padding-left: 2ch;
 }
 .room-c {
-  height: 100%;
-  text-align: end;
+  background-color: plum;
+  width: 350px;
+  padding: 3rem;
+  /* height: 400px;
+  text-align: end; */
 }
 .room-img {
-  position: absolute;
+  outline: 5px solid royalblue;
+  max-width: 100%;
+  /* position: absolute;
   height: 80%;
   right: 15rem;
-  bottom: 5rem;
+  bottom: 5rem; */
+  /* width: 60%; */
+}
+
+main {
+  background-color: magenta;
+  height: 90%;
+  /* box-sizing:unset; */
+  margin: 2rem;
+  /* padding: 3rem; */
+}
+.kevin-body {
+  display: flex;
+  flex-direction: column;
+  /* height: 500px; */
+  /* width: 90%; */
+  /* isolation: isolate; */
+  background-color: lightsteelblue;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 3rem;
+}
+.kevin-card {
+  background: lightgreen;
+  /* width: inherit; */
+  /* height: 350px; */
+  /* padding: 3rem; */
+}
+.kevin-card-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .spot {
   width: 23px;
@@ -61,15 +99,13 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-  .room-c {
-    height: 100%;
-    background-color: violet;
-    text-align: end;
+  /* To leave space enough for the entire img on Mobile devices */
+  main {
+    margin: 0px;
   }
-  .room-img {
-    position: absolute;
-    height: 70%;
-    right: 0px;
-    bottom: 0px;
+  .kevin-body {
+    padding-top: 5rem;
+    padding-right: 0px;
+    align-items: center;
   }
 }
