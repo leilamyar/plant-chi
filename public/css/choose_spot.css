@@ -54,10 +54,7 @@ main {
   padding-right: 3rem;
 }
 .kevin-card {
-  background: lightgreen;
-  /* width: inherit; */
-  /* height: 350px; */
-  /* padding: 3rem; */
+  position: relative;
 }
 .kevin-card-image {
   display: block;
@@ -66,11 +63,33 @@ main {
   height: 400px;
   object-fit: cover;
 }
+#xx-good-spot {
+ position: absolute;
+ bottom: 115px;
+ right: 25px;
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+#xx-wrong-spot-1 {
+ position: absolute;
+ bottom: 265px;
+ right: 112px;
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+ transform: rotate(28deg);
+}
+#xx-wrong-spot-2 {
+ position: absolute;
+ bottom: 170px;
+ right: 229px;
+ box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.2);
+}
 .spot {
-  width: 23px;
-  height: 18px;
+  /* Spots are links -> remove default underlined text-decoration */
+  text-decoration: none;
+  width: 20px;
+  height: 15px;
   border-radius: 15px;
   background-color: var(--yellow);
+  
 }
 .spot:hover,
 .spot:focus {
