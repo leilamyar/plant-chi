@@ -26,12 +26,12 @@
     <div class="kevin-card">
       <img class="kevin-card-image" src="public/images/rooms/bright_no_direct_sun.png" alt="">
       <!-- <div> -->
-        <a class="spot" id="xx-good-spot" href="?section=success-spot">&nbsp;</a>
+        <a class="spot" id="good-spot" href="?section=success-spot">&nbsp;</a>
       <!-- </div> -->
-      <a href="?section=fail-spot" class="spot" id="xx-wrong-spot-1">&nbsp; </a>
-      <a href="?section=fail-spot" class="spot" id="xx-wrong-spot-2">&nbsp;</a>
+      <a href="?section=fail-spot" class="spot" id="wrong-spot-1">&nbsp; </a>
+      <a href="?section=fail-spot" class="spot" id="wrong-spot-2">&nbsp;</a>
     </div>
   </section>
 
 </main>
-<!-- <script src="public/js/choose-a-spot.js"></scsript> -->
+<script src="public/js/choose-a-spot.js"></script>
