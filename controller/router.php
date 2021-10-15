@@ -45,6 +45,8 @@ if (isset($_GET["section"]))
 		{
       case 'home':
         require_once("controller/home-controller.php");
+      case 'signup':
+        require_once("controller/signup-controller.php");
 			case 'login':
         require_once("controller/login-controller.php");
         break;
