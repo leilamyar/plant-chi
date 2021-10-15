@@ -1,6 +1,5 @@
 <?php 
 require_once("Connection.php");
-
 class Sentences extends Connection {
 	// récupérer un thé
 	public function getSentenceRandom(){

@@ -1,5 +1,6 @@
 <div class="fail-block">
     <h1 class="fail-title"><?= $sentence; ?> </h1>
+    <!-- Which is the random phrase in the db. cf: fail-page-controller.php -->
 
     <img class="plant-chi-dead-img" src="public/images/plant-chi/plant-chi_dead.png" alt="dead plant-chi">
 
