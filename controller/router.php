@@ -1,34 +1,109 @@
 <?php 
-  if(isset($_GET["section"])) {
-    switch ($_GET["section"]) {
-      case 'home':
-        include("controller/home-controller.php");
+
+$_SESSION['username'] = 'Leila';
+// si l'utilisateur a utilisé le menu de navigation 
+if (isset($_GET["section"])) 
+{	
+	// si l'utilisateur est connecté (tous les droits)
+	if(isset($_SESSION["username"]))
+	{
+		switch ($_GET["section"]) 
+		{
+			case 'home':
+        require_once("controller/home-controller.php");
         break;
       case 'login':
-        include("controller/login-controller.php");
+        require_once("controller/login-controller.php");
         break;
       case 'choose-a-plant':
-        include("controller/choose-a-plant-controller.php");
+        require_once("controller/choose-a-plant-controller.php");
         break;
       case 'choose-a-room':
-        include ("controller/choose-a-room-controller.php");
+        require_once ("controller/choose-a-room-controller.php");
         break;
       case 'choose-a-spot':
-        include("views/page/choose-a-spot.php");
+        require_once("views/page/choose-a-spot.php");
         break;
       case 'fail-spot':
-          include("controller/fail-spot-controller.php");
+          require_once("controller/fail-spot-controller.php");
           break;
       case 'success-spot':
-          include("views/page/success-spot.php");
+          require_once("views/page/success-spot.php");
           break;
 
       default:
-        echo "Cette page n'existe pas.";
+				require_once('controller/404Controller.php');
+				break;
+		}
+	}
+	// si l'utilisateur n'est pas connecté
+	else
+	{
+		switch ($_GET["section"]) 
+		{
+      case 'home':
+        require_once("controller/home-controller.php");
+			case 'login':
+        require_once("controller/login-controller.php");
         break;
-    }
-  } 
-    else {
-    include("controller/home-controller.php");
-  }
+      case 'choose-a-plant':
+        require_once("views/error/access-denied.php");
+        break;
+      case 'choose-a-room':
+        require_once("views/error/access-denied.php");
+        break;
+      case 'choose-a-spot':
+        require_once("views/error/access-denied.php");
+        break;
+      case 'fail-spot':
+        require_once("views/error/access-denied.php");
+        break;
+      case 'success-spot':
+        require_once("views/error/access-denied.php");
+        break;
+      default:
+				require_once('controller/404Controller.php');
+				break;
+		}
+	}	
+}
+// la premiere fois qu'il arrive sur l'application
+else
+{
+	require_once('controller/home-controller.php');
+}
+
+
+  // if(isset($_GET["section"])) {
+  //   switch ($_GET["section"]) {
+  //     case 'home':
+  //       require_once("controller/home-controller.php");
+  //       break;
+  //     case 'login':
+  //       require_once("controller/login-controller.php");
+  //       break;
+  //     case 'choose-a-plant':
+  //       require_once("controller/choose-a-plant-controller.php");
+  //       break;
+  //     case 'choose-a-room':
+  //       require_once ("controller/choose-a-room-controller.php");
+  //       break;
+  //     case 'choose-a-spot':
+  //       require_once("views/page/choose-a-spot.php");
+  //       break;
+  //     case 'fail-spot':
+  //         require_once("controller/fail-spot-controller.php");
+  //         break;
+  //     case 'success-spot':
+  //         require_once("views/page/success-spot.php");
+  //         break;
+
+  //     default:
+  //       echo "Cette page n'existe pas.";
+  //       break;
+  //   }
+  // } 
+  //   else {
+  //   require_once("controller/home-controller.php");
+  // }
 ?>
