@@ -6,8 +6,8 @@
         $user = $connexionUser->verify(htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']));
         // TODO: change EMAIL by FIRSTNAME
         $_SESSION['email'] = $_POST["email"];
-        var_dump($_SESSION['email']);
-
+        // var_dump($_SESSION['email']);
+        header("Location:?section=choose-a-plant");
         if($user != false){
             var_dump($user);
         }
