@@ -16,6 +16,9 @@
       case 'choose-a-spot':
         include("views/page/choose-a-spot.php");
         break;
+      case 'choose-a-spot-cta':
+        include("controller/choose-a-spot-cta-controller.php");
+        break;  
       case 'fail-page':
           include("controller/fail-page-controller.php");
           break;
@@ -23,12 +26,10 @@
           include("views/page/success-spot.php");
           break;
 
-      default:
-        echo "Cette page n'existe pas.";
-        break;
-    }
-  } 
-    else {
-    include("controller/home-controller.php");
+    default:
+      echo "Cette page n'existe pas.";
+      break;
   }
-?>
+} else {
+  include("controller/home-controller.php");
+}
