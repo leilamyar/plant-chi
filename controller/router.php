@@ -1,16 +1,18 @@
 <?php 
 
-$_SESSION['username'] = 'Leila';
 // si l'utilisateur a utilisé le menu de navigation 
 if (isset($_GET["section"])) 
 {	
 	// si l'utilisateur est connecté (tous les droits)
-	if(isset($_SESSION["username"]))
+	if(isset($_SESSION["email"]))
 	{
 		switch ($_GET["section"]) 
 		{
 			case 'home':
         require_once("controller/home-controller.php");
+        break;
+      case 'signup':
+        require_once("controller/signup-controller.php");
         break;
       case 'login':
         require_once("controller/login-controller.php");
