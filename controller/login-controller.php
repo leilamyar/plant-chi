@@ -5,6 +5,8 @@
         $connexionUser= new User();
         $user = $connexionUser->verify(htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']));
         // TODO: change EMAIL by FIRSTNAME
+        // TODO: session should be set in condition underneath (l. 12)
+        // TODOD: connection NOT working
         $_SESSION['email'] = $_POST["email"];
         // var_dump($_SESSION['email']);
         header("Location:?section=choose-a-plant");
