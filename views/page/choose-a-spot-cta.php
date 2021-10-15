@@ -4,7 +4,7 @@
             <img class="img-plant-chi-presentation" src="public/images/plant-chi/plant-chi_neutral.png" alt="Plant-chi talk">
         </a>
         <a class="plant-chi-presentation" href="?section=choose-a-room">
-            <p>Hello {username}, I’m Aloe Vera :D<br><br>I’m so happy to have a new friend!<br>Let me tell you what i need to keep me alive :)</p>
+            <p>I need to be in a <br>bright room,<br> not next to <br>a window: the sun <br> burns x( </p>
         </a>
     </div>
 </div>
