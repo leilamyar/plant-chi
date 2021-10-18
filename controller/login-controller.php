@@ -1,21 +1,21 @@
 <?php 
     include("models/User.php");
     $msg="";
+    session_destroy();
+
     if(isset($_POST["email"], $_POST["password"])){
         $connexionUser= new User();
         $user = $connexionUser->verify(htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']));
-        // TODO: change EMAIL by FIRSTNAME
-        // TODO: session should be set in condition underneath (l. 12)
-        // TODOD: connection NOT working
-        $_SESSION['email'] = $_POST["email"];
-        // var_dump($_SESSION['email']);
-        header("Location:?section=choose-a-plant");
+
         if($user != false){
+            $_SESSION['email'] = $_POST["email"];
+            header("Location:?section=choose-a-plant");
             var_dump($user);
-        }
-        else{
+        } else {
+            header("Location:?section=wrong-credentials");
             $msg = "<p style='color:red'>Invalid email or password.</p><div><a href='?section=login' class='btn'>START</a></div>";
         }
+        var_dump($msg);
     }
 
     include("views/page/login.php");

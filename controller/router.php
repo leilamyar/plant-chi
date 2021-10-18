@@ -65,6 +65,9 @@ if (isset($_GET["section"]))
       case 'success-spot':
         require_once("views/error/access-denied.php");
         break;
+      case 'wrong-credentials':
+        require_once("views/error/wrong-credentials.php");
+        break;
       default:
 				require_once('controller/404Controller.php');
 				break;
