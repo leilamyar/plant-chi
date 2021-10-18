@@ -2,16 +2,15 @@
 require_once("Connection.php");
 //the require_once is the same as the require. When the db is required, it will not include it a second time, juste once.
 class Sentences extends Connection {
-	// récupérer un thé
+	// the class sentences is an extention of the connection page. It's a good practice to make it like this. And the connection page is linked to the db on file Connection (cf line 40)
 	public function getSentenceRandom(){
-		// essaye de faire
+		//to get the sentences randomly 
 		try{
-			$nb = random_int(1, $this->getSentenceCount());
-			$requete= "SELECT * FROM sentences WHERE sentence_id = $nb";
-			// exucte retourne par défaut un tableau
-			// comme il n'y a qu'une seule ligne
-			// recupère uniquement la ligne 0
-			// [0]
+			//try to 
+			$nbSentences = random_int(1, $this->getSentenceCount());
+			//the sentence = random_int[minimum, maximum]. On that case, the $this->getSentenceCount()(on line 27) is to get the number of the sentences that getSentenceCount has. PS: obligatory to begin at 1 for the minimum :-) 'cause on mysql the tab begin at 1, not 0.
+			$requete= "SELECT * FROM sentences WHERE sentence_id = $nbSentences";
+					//select all from sentences(on the data base) where sentence_id = nbSentences on line 10.
 			if($this->execute($requete)!= null){
 				return $this->execute($requete)[0]['sentence'];
 			}
@@ -20,22 +19,16 @@ class Sentences extends Connection {
 			}
 			
 		}
-		// si tu n'y arrives pas alors récupère l'erreur
 		catch(Exception $e){
-			// affiche l'erreur
-			// var_dump($e);
-			// var_dump($e->getMessage());
+			
 			return null;
 		}
 	}
 	public function getSentenceCount(){
-		// essaye de faire
+		// 
 		try{
-			$requete= "SELECT COUNT(*) AS nb FROM `sentences`";
-			// exucte retourne par défaut un tableau
-			// comme il n'y a qu'une seule ligne
-			// recupère uniquement la ligne 0
-			// [0]
+			$requete= "SELECT COUNT(*) AS nbSentences FROM `sentences`";
+			//
 			if($this->execute($requete)!= null){
 				return $this->execute($requete)[0]['nb'];
 			}
@@ -44,11 +37,9 @@ class Sentences extends Connection {
 			}
 			
 		}
-		// si tu n'y arrives pas alors récupère l'erreur
+		// 
 		catch(Exception $e){
-			// affiche l'erreur
-			// var_dump($e);
-			// var_dump($e->getMessage());
+			
 			return null;
 		}
 	}
