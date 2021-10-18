@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="public/css/choose_plant.css">
   <link rel="stylesheet" href="public/css/fail_spot.css">
   <link rel="stylesheet" href="public/css/choose_spot.css">
-  <link rel="stylesheet" href="public/css/success-spot.css">
+  <link rel="stylesheet" href="public/css/success_spot.css">
 </head>
 <body>
   
