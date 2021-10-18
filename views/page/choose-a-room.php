@@ -3,7 +3,6 @@
         <div class="logo-container" id="plantchiCommentContainer">
             <img id="plant-chi_neutral" src="public/images/plant-chi/plant-chi_neutral.png" alt="plantchi_neutral">
             <h1 class="text-plant" id="textPlant">Choose the perfect room for me</h1>
-
         </div>
     </div>
 </div>
