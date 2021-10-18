@@ -30,7 +30,7 @@ class Sentences extends Connection {
 			$requete= "SELECT COUNT(*) AS nbSentences FROM `sentences`";
 			//
 			if($this->execute($requete)!= null){
-				return $this->execute($requete)[0]['nb'];
+				return $this->execute($requete)[0]['nbSentences'];
 			}
 			else {
 				throw new Exception("The sentence doesn't exist") ;

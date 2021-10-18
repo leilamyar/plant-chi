@@ -1,11 +1,9 @@
-
-
 -- phpMyAdmin SQL Dump
 -- version 4.9.7
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Oct 14, 2021 at 05:09 PM
+-- Generation Time: Oct 18, 2021 at 11:27 AM
 -- Server version: 5.7.32
 -- PHP Version: 7.4.12
 
@@ -13,7 +11,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `fail_page_sentences`
+-- Database: `plantchi`
 --
 
 -- --------------------------------------------------------

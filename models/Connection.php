@@ -7,13 +7,13 @@ abstract class Connection {
 	{
 		$this->dbConnection();
 	}
-    
+
 	protected function dbConnection()
     {
     	if (self::$_connection !== null) {
     		return self::$_connection;
     	}
-        self::$_connection = new PDO("mysql:host=localhost;dbname=fail_page_sentences;charset=utf8", 'root', 'root');
+        self::$_connection = new PDO("mysql:host=localhost;dbname=plantchi;charset=utf8", 'root', 'root');
         //to get the db of the sentences
         self::$_connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         self::$_connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
