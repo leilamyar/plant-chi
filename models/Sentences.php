@@ -1,5 +1,6 @@
 <?php 
 require_once("Connection.php");
+//the require_once is the same as the require. When the db is required, it will not include it a second time, juste once.
 class Sentences extends Connection {
 	// récupérer un thé
 	public function getSentenceRandom(){
