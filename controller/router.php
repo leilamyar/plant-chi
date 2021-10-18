@@ -10,6 +10,9 @@ if (isset($_GET["section"])) {
     case 'choose-a-plant':
       include("controller/choose-a-plant-controller.php");
       break;
+    case 'extra-points-amaterasu':
+      include("controller/extra-points-amaterasu-controller.php");
+      break;
     case 'choose-a-room':
       include("controller/choose-a-room-controller.php");
       break;

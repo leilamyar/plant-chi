@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="public/css/choose_spot.css">
   <link rel="stylesheet" href="public/css/success-spot.css">
   <link rel="stylesheet" href="public/css/choose-a-spot-cta.css">
+  <link rel="stylesheet" href="public/css/extra-points-amaterasu.css">
 </head>
 
 <body>
