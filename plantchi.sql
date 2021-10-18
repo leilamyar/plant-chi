@@ -1,3 +1,5 @@
+/* This is what we have to use for our project. We just have to use the name of our table in the model pages. (like sentences for sentences page on model, or user page on the model.) */
+
 -- phpMyAdmin SQL Dump
 -- version 4.9.7
 -- https://www.phpmyadmin.net/
