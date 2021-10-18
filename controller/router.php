@@ -17,6 +17,9 @@ if (isset($_GET["section"]))
       case 'login':
         require_once("controller/login-controller.php");
         break;
+      case 'logout':
+        require_once("controller/logout-controller.php");
+        break;
       case 'choose-a-plant':
         require_once("controller/choose-a-plant-controller.php");
         break;

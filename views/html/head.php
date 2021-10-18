@@ -17,3 +17,5 @@
 </head>
 
 <body>
+<div><a href="?section=logout" class="btn">Log out</a></div>
+<!-- TODO: REMOVE UGLY log out btn -->

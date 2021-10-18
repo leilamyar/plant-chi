@@ -7,6 +7,7 @@
         // ============ CONNEXION =========
         // retourne l'utilisateur si il existe
         public function verify($email, $password) {
+
             if (empty($email) || empty($password)) {
                 return false;
             }
@@ -19,8 +20,12 @@
                 if($this->execute($request, $params)!= null){
                     $data = $this->execute($request, $params)[0];
                     // var_dump($data);
+                    
                    
-                    if(password_verify($password, $data['password'])) {
+                    //if(!password_verify($password, $data['password'])) {
+                        echo $email;
+                        echo $password;
+                    if($password == $data['password']) {
                         // var_dump('Utilisateur is ok');
                         $arrayData = array(
                             "id" => $data["id"],
