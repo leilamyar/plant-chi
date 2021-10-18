@@ -10,7 +10,10 @@
 <br>
 <div class="grid-container">
     <div class="grid-item" id="wrong-room-1"><img src="public/images/garden.png" alt="garden"></div>
-    <div class="grid-item" id="rightRoom"><img src="public/images/room.png" alt="room"></div>
+    <div class="grid-item" id="rightRoom">
+        <a href="?section=choose-a-spot">
+            <img src="public/images/room.png" alt="room">
+    </div>
     <div class="grid-item">Room3</div>
     <div class="grid-item">Room4</div>
 </div>
