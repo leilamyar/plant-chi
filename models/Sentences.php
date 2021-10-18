@@ -9,33 +9,34 @@ class Sentences extends Connection {
 			//try to 
 			$nbSentences = random_int(1, $this->getSentenceCount());
 			//the sentence = random_int[minimum, maximum]. On that case, the $this->getSentenceCount()(on line 27) is to get the number of the sentences that getSentenceCount has. PS: obligatory to begin at 1 for the minimum :-) 'cause on mysql the tab begin at 1, not 0.
-			$requete= "SELECT * FROM sentences WHERE sentence_id = $nbSentences";
+			$request= "SELECT * FROM sentences WHERE sentence_id = $nbSentences";
 					//select all from sentences(on the data base) where sentence_id = nbSentences on line 10.
-			if($this->execute($requete)!= null){
-				return $this->execute($requete)[0]['sentence'];
+			if($this->execute($request)!= null){
+				//if ($this execute the request (on line 12) is different than null)
+				return $this->execute($request)[0]['sentence'];
+				//return 
 			}
 			else {
 				throw new Exception("The sentence doesn't exist") ;
-			}
-			
+			}	
 		}
 		catch(Exception $e){
 			
 			return null;
 		}
 	}
+
 	public function getSentenceCount(){
 		// 
 		try{
-			$requete= "SELECT COUNT(*) AS nbSentences FROM `sentences`";
+			$request= "SELECT COUNT(*) AS nbSentences FROM `sentences`";
 			//
-			if($this->execute($requete)!= null){
-				return $this->execute($requete)[0]['nbSentences'];
+			if($this->execute($request)!= null){
+				return $this->execute($request)[0]['nbSentences'];
 			}
 			else {
 				throw new Exception("The sentence doesn't exist") ;
-			}
-			
+			}	
 		}
 		// 
 		catch(Exception $e){
@@ -44,5 +45,4 @@ class Sentences extends Connection {
 		}
 	}
 }
-
  ?>
