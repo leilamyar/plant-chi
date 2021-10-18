@@ -111,4 +111,17 @@
   #plantchi-img-happy {
     display: none;
   }
+
+  #good-spot {
+    bottom: 127px;
+    right: 20px;
+  }
+   #wrong-spot-1 {
+    bottom: 250px;
+    right: 90px;
+  }
+   #wrong-spot-2 {
+    bottom: 175px;
+    right: 188px;
+  }
 }
