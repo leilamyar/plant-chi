@@ -22,7 +22,7 @@
 .hidden {
   display: none;
 }
-.kevin-body {
+.body {
   display: flex;
   flex-direction: column;
   background-color: lightsteelblue;
@@ -30,10 +30,10 @@
   justify-content: flex-end;
   padding-right: 3rem;
 }
-.kevin-card {
+.card {
   position: relative;
 }
-.kevin-card-image {
+.card-image {
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -79,7 +79,7 @@
   main {
     margin: 0px;
   }
-  .kevin-body {
+  .body {
     padding-top: 5rem;
     padding-right: 0px;
     align-items: center;
