@@ -72,6 +72,12 @@ footer {
   justify-content: center;
 }
 
+.pushed-right {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+}
+
 button,
 .btn {
   display: block;
