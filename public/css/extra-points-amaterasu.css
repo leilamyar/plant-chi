@@ -34,9 +34,11 @@
     height:100%;
 }
 
+.body-container .block-left 
+
 .body-container .block-right p{
     height:300px;
-    font-weight: 150;
+    font-weight: 150px;
     text-align: center;
     padding: 30px;
     justify-content: center;
