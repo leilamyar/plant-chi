@@ -9,4 +9,4 @@
 
 <a href="?section=choose-a-spot" id="choose-a-spot">Choose a spot</a>
 
-<a href="?section=fail-spot" id="fail-spot">Fail spot</a>
+<a href="?section=fail-spot" id="fail-page">Fail page</a>

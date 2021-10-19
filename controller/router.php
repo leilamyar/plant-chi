@@ -17,13 +17,13 @@ if (isset($_GET["section"])) {
       include("controller/choose-a-room-controller.php");
       break;
     case 'choose-a-spot':
-      include("controller/choose-a-spot-controller.php");
+      include("views/page/choose-a-spot.php");
       break;
     case 'choose-a-spot-cta':
       include("controller/choose-a-spot-cta-controller.php");
       break;
-    case 'fail-spot':
-      include("controller/fail-spot-controller.php");
+    case 'fail-page':
+      include("controller/fail-page-controller.php");
       break;
     case 'success-spot':
       include("views/page/success-spot.php");
