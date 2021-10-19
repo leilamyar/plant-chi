@@ -16,22 +16,23 @@
       case 'choose-a-spot':
         include("views/page/choose-a-spot.php");
         break;
-      case 'fail-spot':
-          include("controller/fail-spot-controller.php");
+      case 'choose-a-spot-cta':
+        include("controller/choose-a-spot-cta-controller.php");
+        break;  
+      case 'fail-page':
+          include("controller/fail-page-controller.php");
           break;
       case 'success-spot':
           include("views/page/success-spot.php");
           break;
       case 'tuto-water-part-1':
-        include("views/page/tuto-water-part-1.php");
+        include("controller/tuto-water-plant-1-controller.php");
         break;
 
-      default:
-        echo "Cette page n'existe pas.";
-        break;
-    }
-  } 
-    else {
-    include("controller/home-controller.php");
+    default:
+      echo "Cette page n'existe pas.";
+      break;
   }
-?>
+} else {
+  include("controller/home-controller.php");
+}

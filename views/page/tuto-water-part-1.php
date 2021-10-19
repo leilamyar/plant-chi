@@ -43,14 +43,14 @@
     </div>
     
     
-    <div class="plant-grid-c">
+    <div class="plant-grid-tuto-water">
         <!-- Plant-chi img -->
         <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
             <img id="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_unhappy.png" alt="Plant-chi is happy with the spot">
     </div>
     <!-- Plant-chi text (to the right of the img) -->
-    <div id="plant-chi-talk">
+    <div class="plant-chi-talk">
         <p>Hold the space bar</p>
         <p>to give me water,</p>
         <p>pleeease <3</p>

@@ -27,7 +27,11 @@
     /* I had to do this to get a "perfect" emplacement even if it still not perfect... */
 }
 
-.img-dead-too-much-water-face, .img-too-much-water-face, .img-cute-face, .img-need-water-face, .img-dead-no-more-water-face{
+.img-dead-too-much-water-face, 
+.img-too-much-water-face, 
+.img-cute-face, 
+.img-need-water-face, 
+.img-dead-no-more-water-face{
     width: 4%;
 }
 
@@ -50,7 +54,7 @@
 }
 
   /* ****** Plant and ground part ***** */
-.plant-grid-c {
+.plant-grid-tuto-water {
     display: grid;
     grid-template-columns: 30% 30% 30% 30%;
     grid-template-rows: 25% 25% 25% 25%;
@@ -64,7 +68,7 @@
     
   }
 
-  #plant-chi-talk {
+  .plant-chi-talk {
     grid-row-start: 3;
     grid-column-start: 3;
     text-align: center;
