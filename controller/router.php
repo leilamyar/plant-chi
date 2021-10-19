@@ -10,7 +10,7 @@ if (isset($_GET["section"])) {
     case 'choose-a-plant':
       include("controller/choose-a-plant-controller.php");
       break;
-    case 'extra-points-amaterasu':
+    case 'extra-points-amaterasu': //name that should appear on url
       include("controller/extra-points-amaterasu-controller.php");
       break;
     case 'choose-a-room':
