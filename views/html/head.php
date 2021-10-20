@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="public/css/choose_plant.css">
   <link rel="stylesheet" href="public/css/fail_spot.css">
   <link rel="stylesheet" href="public/css/choose_spot.css">
-  <link rel="stylesheet" href="public/css/tuto_water_plant_part_1.css">
+  <link rel="stylesheet" href="public/css/tuto_water_part.css">
   <link rel="stylesheet" href="public/css/success-spot.css">
   <link rel="stylesheet" href="public/css/choose-a-spot-cta.css">
 </head>
