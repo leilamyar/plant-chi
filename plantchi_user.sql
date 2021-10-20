@@ -39,7 +39,7 @@ CREATE TABLE `plantchi`.`user` (
 -- Load data into 'user' table
 --
 
-INSERT INTO `plantchi`.`user` (`id`, `name`, `email`, `password`) VALUES
+INSERT INTO `plantchi`.`user` (`id`, `name`, `email`,`password`) VALUES
 (1, 'Leila', 'l.myar@interface3.be', 'lmy'),
 (2, 'Rajesh', 'r.koo@interface3.be', 'rko'),
 (3, 'Angelina', 'a.jolie@interface3.be', 'ajo');
