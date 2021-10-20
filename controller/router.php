@@ -25,8 +25,8 @@
       case 'success-spot':
           include("views/page/success-spot.php");
           break;
-      case 'tuto-water-part-1':
-        include("controller/tuto-water-plant-1-controller.php");
+      case 'tuto-water-part':
+        include("controller/tuto-water-part-controller.php");
         break;
 
     default:
