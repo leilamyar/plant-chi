@@ -29,7 +29,6 @@ SET time_zone = "+00:00";
 --
 CREATE TABLE `plantchi`.`user` (
   `id` int(11) NOT NULL,
-  `email` varchar(50) NOT NULL,
   `name` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(255) NOT NULL
@@ -40,10 +39,10 @@ CREATE TABLE `plantchi`.`user` (
 -- Load data into 'user' table
 --
 
-INSERT INTO `plantchi`.`user` (`id`, `email`,`name`, `email`, `password`) VALUES
-(1, 'Leila', 'Myar', 'l.myar@interface3.be', 'lmy'),
-(2, 'Rajesh', 'Koothrapalli', 'r.koo@interface3.be', 'rko'),
-(3, 'Angelina', 'Jolie', 'a.jolie@interface3.be', 'ajo');
+INSERT INTO `plantchi`.`user` (`id`, `name`, `email`,`password`) VALUES
+(1, 'Leila', 'l.myar@interface3.be', 'lmy'),
+(2, 'Rajesh', 'r.koo@interface3.be', 'rko'),
+(3, 'Angelina', 'a.jolie@interface3.be', 'ajo');
 
 --
 -- Index for table `user`
