@@ -2,7 +2,7 @@
   <div class="logo">
     <img src="public/images/LOGO.png" alt="Plant-chi Logo">
   </div>
-  <a href="?section=login" class="btn">START</a>
+  <a href="?section=signup" class="btn">START</a>
 </main>
 
 
