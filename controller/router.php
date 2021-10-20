@@ -32,6 +32,9 @@
         case 'success-spot':
             require_once("views/page/success-spot.php");
             break;
+        case 'tuto-water-part':
+          require_once("controller/tuto-water-part-controller.php");
+          break;
         case 'logout':
           require_once("controller/logout-controller.php");
           break;
