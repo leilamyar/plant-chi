@@ -57,7 +57,7 @@
 .plant-grid-tuto-water {
     display: grid;
     grid-template-columns: 30% 30% 30% 30%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 15% 15% 25% 25%;
     /* items (ie, grid cells) centered in the middle */
     align-items: center;
     position: relative;
@@ -72,14 +72,11 @@
     grid-row-start: 3;
     grid-column-start: 3;
     text-align: center;
+    margin-bottom: 10%;
   }
 
   .look-gauge{
     width: 70;
     font-size: x-large;  
     margin-left: 15%;
-  }
-
-  .plant-chi-mood-img{
-      margin-bottom:30%;
   }
