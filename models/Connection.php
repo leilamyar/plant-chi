@@ -30,6 +30,7 @@ abstract class Connection {
         self::$_connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 		//We are going to define the PDO is the way to recover data is the default mode. The fetch_assoc is to recover the data in an associative table.
         self::$_connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        // retourne la connection
         return self::$_connection;
 		//When the connection is succeeded, it will return the connect
     }
@@ -51,4 +52,5 @@ abstract class Connection {
         return $stmt; // Iterator (forearch)
     }
 }
- ?>
+
+?>
