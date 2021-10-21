@@ -2,7 +2,7 @@
 
   <div class="flex-col-centered">
     <div class="logo">
-      <img src="public/images/LOGO.png" alt="Plant-chi Logo">
+      <img src="public/images/LOGO-BIRD.png" alt="Plant-chi Logo">
     </div>
     <form
       action="#"
