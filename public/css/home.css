@@ -1,3 +1,4 @@
-body{
-    color: rgb(69, 135, 101);
+.flex-c-col{
+    background-image: url("../images/green-sakura.png");
+    height:100vh;
 }
