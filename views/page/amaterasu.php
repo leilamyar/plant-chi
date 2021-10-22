@@ -11,11 +11,11 @@
 
         </div>
 
-        <div class="block-right">
+        <div class="block-right" id="explanationAmaterasu">
             <p>If sunny outside, you may ask the goddess Amaterasu to import sunrays digitally into your plant</p>
 
         </div>
-        <div class="block-left">
+        <div class="block-left" id="weather">
             <table>
                 <thead>
                     <tr>
@@ -28,10 +28,10 @@
                 </tbody>
             </table>
 
-            <button id="myButton">Call for Amaterasu</button>
+
         </div>
         <div class="block-right">
-
+            <button id="myButton">Call for Amaterasu</button>
         </div>
 
         <!-- <table class="block-right">

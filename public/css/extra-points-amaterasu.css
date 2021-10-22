@@ -34,15 +34,22 @@
     height:100%;
 }
 
-.body-container .block-left 
 
-.body-container .block-right p{
+.body-container .block-right{
     height:300px;
-    font-weight: 150px;
+    font-weight: 1300px;
     text-align: center;
     padding: 30px;
     justify-content: center;
     
+}
+
+#explanationAmaterasu {
+    display: block;
+}
+
+#weather {
+    display: none;
 }
 
 

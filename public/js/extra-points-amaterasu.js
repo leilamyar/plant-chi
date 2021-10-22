@@ -49,3 +49,10 @@ $("#myButton").click(function () {
     })
 
 });
+
+$(document).ready(function () {
+    $("#myButton").click(function () {
+        $("#explanationAmaterasu").fadeToggle('slow');
+        $("#weather").fadeToggle('slow');
+    });
+});
