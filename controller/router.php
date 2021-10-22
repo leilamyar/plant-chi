@@ -50,8 +50,10 @@
       {
         case 'home':
           require_once("controller/home-controller.php");
+          break;
         case 'signup':
           require_once("controller/signup-controller.php");
+          break;
         case 'login':
           require_once("controller/login-controller.php");
           break;
