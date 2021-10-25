@@ -7,17 +7,17 @@
     <form
       action="#"
       method="post">
-      <h2 class="title">LOG IN</h2>
+      <h2 class="title">SIGN UP</h2>
       <div class="aligned-center">
-        <input type="email" name="email" id="email" placeholder="email">
+        <input type="email" name="user-email" id="user-email" placeholder="email">
       </div>
       <div class="aligned-center">
-        <input type="password" name="password" id="password" placeholder="password">
+        <input type="password" name="user-pwd" id="user-pwd" placeholder="password">
       </div>
-      <button type="submit">LOG IN</button>
+      <button type="submit">SIGN UP</button>
     </form>
 
-    <a class="hidden" href="?section=choose-a-plant" class="btn">PLAY</a>
+    <div class="aligned-center">Already have an account? <div class="aligned-center"><a href="?section=login">Sign in</a></div></div>
 
     <script src="public/js/login.js"></script>
 
