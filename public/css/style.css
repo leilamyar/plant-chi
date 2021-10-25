@@ -143,3 +143,26 @@ input {
     margin-top: 2rem;
   }
 }
+
+@media screen and (min-width: 900px) {
+  #main-content-c {
+    display: grid;
+    place-items: center;
+    width: 900px;
+    height: 100vh;
+    margin: auto;
+    background-color: plum;
+  }
+}
+
+/* Container for all pages */
+
+#chosen-plant-c {
+  background-color: purple;
+  margin: auto;
+  width: 100%;
+}
+#choose-plant-c {
+  background-color: red;
+
+}

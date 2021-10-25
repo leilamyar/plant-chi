@@ -4,6 +4,7 @@
 }
 
 .container-choose-plant{
+    width: 100%;
     display:grid;
     grid-template-columns: 25% 25%;
     grid-column-gap: 5%;
@@ -58,7 +59,7 @@
 .img-plant-chi-presentation{
     width: 40%;
     float: left;
-    padding-left: 10% ;
+    /* padding-left: 10% ; */
 }
 
 .plant-chi-presentation{
