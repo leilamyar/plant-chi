@@ -17,8 +17,8 @@
     <div class="card">
       <img class="card-image" src="public/images/rooms/bright_no_direct_sun.png" alt="">
       <a href="?section=success-spot" class="spot" id="good-spot" >&nbsp;</a>
-      <a href="?section=fail-spot" class="spot" id="wrong-spot-1">&nbsp;</a>
-      <a href="?section=fail-spot" class="spot" id="wrong-spot-2">&nbsp;</a>
+      <a href="?section=fail-page" class="spot" id="wrong-spot-1">&nbsp;</a>
+      <a href="?section=fail-page" class="spot" id="wrong-spot-2">&nbsp;</a>
     </div>
   </section>
 
