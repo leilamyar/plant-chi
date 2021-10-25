@@ -12,3 +12,7 @@
     from {background-position: 0px 0px;}
     to{background-position: 400px 500px;}
 }
+
+.logo{
+    padding-top:10%;
+}
