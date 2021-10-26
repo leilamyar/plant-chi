@@ -1,6 +1,8 @@
 <div class="water-and-stars">
     <div class="gauge">
         <img class="img-gauge" src="public/images/gauge/gauge_thirsty.png" alt="gauge thirsty">
+        <img class="less-thirsty" src="public/images/gauge/less_thirsty.png" alt="gauge less thirsty">
+        <img class="happy" src="public/images/gauge/plant-chi_happy.png" alt="gauge happy">
         <div class="container-gauge-part">
             <!-- faces images for the gauge -->
             <div>
@@ -9,12 +11,12 @@
             <div>
                 <img class="img-too-much-water-face" src="public/images/gauge_faces/too_much_water.png" alt="too much water face">
             </div>
-    
+
             <div>
                 <img class="img-check" src="public/images/check.png" alt="green check">
                 <img class="img-cute-face" src="public/images/gauge_faces/cute.png" alt="cute face">
             </div>
-            
+
             <div>
                 <img class="img-need-water-face" src="public/images/gauge_faces/i_need_water.png" alt="need water face">
             </div>
@@ -41,20 +43,20 @@
             <img class="imgGreyStar5" src="public/images/grey_stars/grey_star_5.png" alt="grey star 5">
         </div>
     </div>
-    
-    
+
+
     <div class="plant-grid-tuto-water">
         <!-- Plant-chi img -->
         <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
             <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_unhappy.png" alt="Plant-chi is happy with the spot">
-    </div>
-    <!-- Plant-chi text (to the right of the img) -->
-    <div class="plant-chi-talk">
-        <p>Hold the space bar</p>
-        <p>to give me water,</p>
-        <p>pleeease <3</p>
-    </div>
+        </div>
+        <!-- Plant-chi text (to the right of the img) -->
+        <div class="plant-chi-talk">
+            <p>Hold the space bar</p>
+            <p>to give me water,</p>
+            <p>pleeease <3< /p>
+        </div>
     </div>
     <div class="ground">&nbsp;</div>
 </div>

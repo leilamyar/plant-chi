@@ -16,9 +16,42 @@ console.log('I am cooki :3');
   function checkKeyPRess(key){
       if(key.keyCode == "32"){
           console.log("The 'space bar' has been pressed");
-        then  
-      }
+
+
+          $(document).ready(function () {
+            
+         
+            /* const imgGaugeRemove = document.querySelector('.img-gauge');
+       
+            imgGaugeRemove.addEventListener('keydown',function(e){
+            imgGaugeRemove.hidden = true;
+            
+            }); */
+
+            $(".img-gauge").hide('slow', () =>{
+                    $(".less-thirsty").show('slow');
+
+            }); //$("#my_image").attr("src","second.jpg");
+        });
+    }  
+      else{
+          console.log("IT works my beauties.");
+      }  
+      
   }
+
+ /*  const chooseYourPlant = document.querySelector('.choose-your-plant');
+  const firstPlant = document.querySelector('#first-plant');
+  
+  firstPlant.addEventListener('click',function(e){
+      chooseYourPlant.hidden = true;
+      //like this the block ".choose-your-plant" will be hidden!
+  }); */
+
+
+
+
+
 
 /* function showKeyPress(evt) {
 alert("onkeypress handler: \n"
