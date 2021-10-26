@@ -34,6 +34,10 @@
     height:100%;
 }
 
+.body-container .block-left img{
+    /* height:100%; */
+    width: 500px;
+}
 
 .body-container .block-right{
     height:300px;

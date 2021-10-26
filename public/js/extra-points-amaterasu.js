@@ -44,6 +44,8 @@ $("#myButton").click(function () {
             // => Cela permet d'utiliser une variable comme nom de propriete 
             //data is a part of response 
             addElement(response.data[name]);
+
+            
         }
 
     })
@@ -52,7 +54,9 @@ $("#myButton").click(function () {
 
 $(document).ready(function () {
     $("#myButton").click(function () {
-        $("#explanationAmaterasu").fadeToggle('slow');
-        $("#weather").fadeToggle('slow');
+        $("#explanationAmaterasu").fadeToggle('slow', function(){
+            $("#weather").fadeToggle('slow');
+        });
+        
     });
 });
