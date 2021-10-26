@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 CREATE TABLE `plantchi`.`user` (
   `id` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
+  `firstname` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -39,7 +39,7 @@ CREATE TABLE `plantchi`.`user` (
 -- Load data into 'user' table
 --
 
-INSERT INTO `plantchi`.`user` (`id`, `name`, `email`,`password`) VALUES
+INSERT INTO `plantchi`.`user` (`id`, `firstname`, `email`,`password`) VALUES
 (1, 'Leila', 'l.myar@interface3.be', 'lmy'),
 (2, 'Rajesh', 'r.koo@interface3.be', 'rko'),
 (3, 'Angelina', 'a.jolie@interface3.be', 'ajo');

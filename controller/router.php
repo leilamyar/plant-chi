@@ -26,12 +26,15 @@
         case 'choose-a-spot':
           require_once("views/page/choose-a-spot.php");
           break;
-        case 'fail-spot':
-            require_once("controller/fail-spot-controller.php");
+        case 'fail-page':
+            require_once("controller/fail-page-controller.php");
             break;
         case 'success-spot':
             require_once("views/page/success-spot.php");
             break;
+        case 'tuto-water-part':
+          require_once("controller/tuto-water-part-controller.php");
+          break;
         case 'logout':
           require_once("controller/logout-controller.php");
           break;
@@ -50,8 +53,10 @@
       {
         case 'home':
           require_once("controller/home-controller.php");
+          break;
         case 'signup':
           require_once("controller/signup-controller.php");
+          break;
         case 'login':
           require_once("controller/login-controller.php");
           break;

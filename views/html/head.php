@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="public/css/choose_plant.css">
   <link rel="stylesheet" href="public/css/fail_spot.css">
   <link rel="stylesheet" href="public/css/choose_spot.css">
-  <link rel="stylesheet" href="public/css/success-spot.css">
+  <link rel="stylesheet" href="public/css/tuto_water_part.css">
+  <link rel="stylesheet" href="public/css/success_spot.css">
   <link rel="stylesheet" href="public/css/choose-a-spot-cta.css">
   <link rel="stylesheet" href="public/css/extra-points-amaterasu.css">
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
