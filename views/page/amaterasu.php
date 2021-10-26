@@ -12,7 +12,7 @@
         </div>
 
         <div class="block-right" id="explanationAmaterasu">
-            <p>If sunny outside, you may ask the goddess Amaterasu to import sunrays digitally into your plant</p>
+            <p>If sunny outside, you may ask the goddess <i>Amaterasu</i> to import sunrays digitally into your plant</p>
 
         </div>
         <div class="block-left" id="weather">
