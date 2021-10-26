@@ -53,6 +53,10 @@
     margin-top: 10%;
 }
 
+.stars-part img {
+    width: 100%;
+}
+
   /* ****** Plant and ground part ***** */
 .plant-grid-tuto-water {
     display: grid;
