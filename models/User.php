@@ -29,7 +29,8 @@
                         // var_dump('Utilisateur is ok');
                         $arrayData = array(
                             "id" => $data["id"],
-                            "email" => $data["email"]
+                            "email" => $data["email"],
+                            "firstname" => $data["firstname"]
                         );
                         return $arrayData;
                     }
