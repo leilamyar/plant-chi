@@ -85,3 +85,15 @@
     font-size: x-large;  
     margin-left: 15%;
   }
+
+  .stars-part_yellow{
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-gap:5%;
+    height: 10%;
+    margin-top: 10%;
+}
+
+.stars-part_yellow img {
+    width: 200%;
+}
