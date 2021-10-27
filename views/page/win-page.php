@@ -1,4 +1,4 @@
-<p class="title_win_page">You did it!</p>
+<h1 class="title_win_page">You did it!</h1>
 <div class="plant-choosen">
     <div class="plant-chi-speaks">
         <a href="?section=choose-a-room">
