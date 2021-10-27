@@ -1,3 +1,4 @@
+<div><a href="?section=logout" class="pushed-right">Log out</a></div>
 <main class="spot-choice-c">
   <!-- COLUMN 1 = plant-chi img + text -->
   <div id="plantchi-img-neutral" class="plantchi-speaks-flex-c">

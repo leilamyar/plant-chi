@@ -1,4 +1,5 @@
 <div class="water-and-stars">
+
     <div class="gauge">
         <img class="img-gauge" src="public/images/gauge/gauge_thirsty.png" alt="gauge thirsty">
         <div class="container-gauge-part">
