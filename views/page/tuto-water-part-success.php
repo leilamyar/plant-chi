@@ -46,7 +46,6 @@
     
     <div class="plant-grid-tuto-water">
         <!-- Plant-chi img -->
-        <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
             <a href="?section=win-page">
                 <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">

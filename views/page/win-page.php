@@ -2,10 +2,10 @@
 <div class="win-page">
     <div class="plant-chi-win">
         <a href="?section=choose-a-room">
-            <img class="img-plant-chi-presentation" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi talk">
+            <img class="img-plant-chi-win" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi talk">
         </a>
         <a class="plant-chi-congrats" href="?section=choose-a-room">
-            <p>Congratulation <?= $_SESSION["username"] ?>, <br> You can now <br> either have<br>a real aloe vera<br>or play again:</p>
+            <p>Congratulation <?= $_SESSION["username"] ?>, <br> You can now <br> either have<br>a real aloe vera<br>or play again :D</p>
         </a>
     </div>
 </div>
