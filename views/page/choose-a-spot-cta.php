@@ -1,3 +1,4 @@
+<div><a href="?section=logout" class="pushed-right">Log out</a></div>
 <div class="plant-choosen">
     <div class="plant-chi-speaks">
         <a href="?section=choose-a-room">

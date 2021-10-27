@@ -1,4 +1,5 @@
 <div class="header">
+<div><a href="?section=logout" class="pushed-right">Log out</a></div>
     <div class="inner-header" id="anchorCommentContainer">
         <div class="logo-container" id="plantchiCommentContainer">
             <img id="plant-chi_neutral" src="public/images/plant-chi/plant-chi_neutral.png" alt="plantchi_neutral">
