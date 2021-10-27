@@ -1,7 +1,7 @@
 <div class="water-and-stars">
 
     <div class="gauge">
-        <img class="img-gauge" src="public/images/gauge/gauge_thirsty.png" alt="gauge thirsty">
+        <img class="img-gauge" src="public/images/gauge/happy.png" alt="gauge thirsty">
         <div class="container-gauge-part">
             <!-- faces images for the gauge -->
             <div>
@@ -48,8 +48,10 @@
         <!-- Plant-chi img -->
         <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
-            <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">
-    </div>
+            <a href="?section=win-page">
+                <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">
+            </a>
+        </div>
     <!-- Plant-chi text (to the right of the img) -->
     <div class="plant-chi-talk">
         <p>Hold the space bar</p>

@@ -48,8 +48,10 @@
         <!-- Plant-chi img -->
         <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
-            <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_unhappy.png" alt="Plant-chi is happy with the spot">
-    </div>
+            <a href="?section=tuto-water-part-success">
+                <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_unhappy.png" alt="Plant-chi is happy with the spot">
+            </a>
+        </div>
     <!-- Plant-chi text (to the right of the img) -->
     <div class="plant-chi-talk">
         <p>Hold the space bar</p>
