@@ -17,7 +17,8 @@
       <button type="submit">SIGN UP</button>
     </form>
 
-    <div class="aligned-center">Already have an account? <div class="aligned-center"><a href="?section=login">Sign in</a></div></div>
+    <div class="aligned-center">Already have an account?<a href="?section=login"> Sign in </a>
+    </div>
 
     <script src="public/js/login.js"></script>
 

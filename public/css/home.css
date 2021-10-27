@@ -13,7 +13,10 @@
     to{background-position: 400px 500px;}
 }
 
-.logo{
+.logo-home{
+    text-align: center;
+    transform: scale(0.7);
+    margin-bottom: 0;
     padding-top: 10%;
 }
 
