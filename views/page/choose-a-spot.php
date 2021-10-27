@@ -11,7 +11,7 @@
   </div>
   <div id="plantchi-img-happy" class="plantchi-speaks-flex-c hidden">
     <img class="img-plantchi-spot" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy">
-    <p class="plantchi-text">I love it here ! &#128525; </p>
+    <p class="plantchi-text">I love it here ! &#60;3 </p>
   </div>
   <!-- COLUMN 2 = room img -->
   <section class="body">

@@ -9,10 +9,10 @@
 
 .success-grid-c {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25% 25%;
+  grid-template-columns: 25% 35% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
   /* items (ie, grid cells) centered in the middle */
-  margin-top: 18%;
+  margin-top: 5%;
   align-items: center;
   position: relative;
   /* Position set because if not mentionned, z-index won't work, because .ground has a position (and positioned elements always come on top of non-

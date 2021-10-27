@@ -26,7 +26,7 @@
         case 'choose-a-spot':
           require_once("views/page/choose-a-spot.php");
           break;
-        case 'fail-spot':
+        case 'fail-page':
             require_once("controller/fail-page-controller.php");
             break;
         case 'success-spot':

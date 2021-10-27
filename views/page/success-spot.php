@@ -1,7 +1,7 @@
-<div class="success-grid-c">
 <div>
   <a href="?section=logout" class="pushed-right">Log out</a>
 </div>
+<div class="success-grid-c">
   <!-- Plant-chi img -->
   <div id="grid-item-1">
     <a href="?section=tuto-water-part">
