@@ -44,6 +44,9 @@
         case 'logout':
           require_once("controller/logout-controller.php");
           break;
+        case 'extra-points-amaterasu': //name that should appear on url
+          include("controller/extra-points-amaterasu-controller.php");
+          break;
         default:
           require_once('controller/404Controller.php');
           break;
@@ -65,6 +68,9 @@
           break;
         case 'choose-a-plant':
           require_once("views/error/access-denied.php");
+          break;
+        case 'extra-points-amaterasu': //name that should appear on url
+          include("views/error/access-denied.php");
           break;
         case 'choose-a-room':
           require_once("views/error/access-denied.php");
@@ -101,5 +107,3 @@
   {
     require_once('controller/home-controller.php');
   }
-
-?>
