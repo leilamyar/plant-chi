@@ -1,4 +1,5 @@
 <div class="choose-your-plant">
+<div><a href="?section=logout" class="pushed-right">Log out</a></div>
     <h1 class="title-choose-plant"> Choose your plant &#10084; </h1>
     <div class="container-choose-plant"> 
 

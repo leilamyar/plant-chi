@@ -1,3 +1,4 @@
+<div><a href="?section=logout" class="pushed-right">Log out</a></div>
 <div class="header">
     <div class="inner-header" id="anchorCommentContainer">
         <div class="logo-container" id="plantchiCommentContainer">
@@ -8,9 +9,11 @@
 </div>
 <br>
 <div class="grid-container">
-    <div class="grid-item" id="wrong-room-1">
-        <img src="public/images/garden.png" alt="garden">
-    </div>
+    <a href="?section=fail-page">
+        <div class="grid-item" id="wrong-room-1">
+            <img src="public/images/garden.png" alt="garden">
+        </div>
+    </a>
 
     <div class="grid-item" id="rightRoom">
         <a href="?section=choose-a-spot">
@@ -19,6 +22,7 @@
     </div>
     <div class="grid-item">Room3</div>
     <div class="grid-item">Room4</div>
+    
 </div>
 
 <script src="public/js/choose-a-room.js"></script>

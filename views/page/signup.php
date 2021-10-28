@@ -2,7 +2,7 @@
 
   <div class="flex-col-centered">
     <div class="logo">
-      <img src="public/images/LOGO.png" alt="Plant-chi Logo">
+      <img src="public/images/LOGO-BIRD.png" alt="Plant-chi Logo">
     </div>
     <form
       action="#"
@@ -17,7 +17,8 @@
       <button type="submit">SIGN UP</button>
     </form>
 
-    <div class="aligned-center">Already have an account? <div class="aligned-center"><a href="?section=login">Sign in</a></div></div>
+    <div class="aligned-center">Already have an account?<a href="?section=login"> Sign in </a>
+    </div>
 
     <script src="public/js/login.js"></script>
 

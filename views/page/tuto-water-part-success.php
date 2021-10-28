@@ -1,7 +1,7 @@
 <div class="water-and-stars">
 
     <div class="gauge">
-        <img class="img-gauge" src="public/images/gauge/gauge_thirsty.png" alt="gauge thirsty">
+        <img class="img-gauge" src="public/images/gauge/happy.png" alt="gauge thirsty">
         <div class="container-gauge-part">
             <!-- faces images for the gauge -->
             <div>
@@ -25,31 +25,30 @@
         </div>
     </div>
 
-    <div class="stars-part">
+    <div class="stars-part_yellow">
         <div>
-            <img class="imgGreyStar1" src="public/images/grey_stars/grey_star_1.png" alt="grey star 1">
+            <img class="imgGreyStar1" id="yellow_stars" src="public/images/yellow_stars/yellow_star_1.png" alt="grey star 1">
         </div>
         <div>
-            <img class="imgGreyStar2" src="public/images/grey_stars/grey_star_2.png" alt="grey star2">
+            <img class="imgGreyStar2" id="yellow_stars" src="public/images/yellow_stars/yellow_star_2.png" alt="grey star2">
         </div>
         <div>
-            <img class="imgGreyStar3" src="public/images/grey_stars/grey_star_3.png" alt="grey star3">
+            <img class="imgGreyStar3" id="yellow_stars" src="public/images/yellow_stars/yellow_star_3.png" alt="grey star3">
         </div>
         <div>
-            <img class="imgGreyStar4" src="public/images/grey_stars/grey_star_4.png" alt="grey star4">
+            <img class="imgGreyStar4" id="yellow_stars" src="public/images/yellow_stars/yellow_star_4.png" alt="grey star4">
         </div>
         <div>
-            <img class="imgGreyStar5" src="public/images/grey_stars/grey_star_5.png" alt="grey star 5">
+            <img class="imgGreyStar5" id="yellow_stars" src="public/images/yellow_stars/yellow_star_5.png" alt="grey star 5">
         </div>
     </div>
     
     
     <div class="plant-grid-tuto-water">
         <!-- Plant-chi img -->
-        <p class="look-gauge">↥ <br> Look, I'm thirsty :(</p>
         <div id="grid-item-1">
-            <a href="?section=tuto-water-part-success">
-                <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_unhappy.png" alt="Plant-chi is happy with the spot">
+            <a href="?section=win-page">
+                <img class="plant-chi-mood-img" src="public/images/plant-chi/plant-chi_happy.png" alt="Plant-chi is happy with the spot">
             </a>
         </div>
     <!-- Plant-chi text (to the right of the img) -->
@@ -61,5 +60,3 @@
     </div>
     <div class="ground">&nbsp;</div>
 </div>
-
-<script src="public/js/water-part-1.js"></script>

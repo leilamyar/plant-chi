@@ -26,7 +26,7 @@
         case 'choose-a-spot':
           require_once("views/page/choose-a-spot.php");
           break;
-        case 'fail-spot':
+        case 'fail-page':
             require_once("controller/fail-page-controller.php");
             break;
         case 'success-spot':
@@ -34,6 +34,12 @@
             break;
         case 'tuto-water-part':
           require_once("controller/tuto-water-part-controller.php");
+          break;
+        case 'win-page':
+          require_once("controller/win-page-controller.php");
+          break;
+        case 'tuto-water-part-success':
+          require_once("controller/tuto-water-part-success-controller.php");
           break;
         case 'logout':
           require_once("controller/logout-controller.php");
@@ -76,6 +82,12 @@
           require_once("views/error/access-denied.php");
           break;
         case 'success-spot':
+          require_once("views/error/access-denied.php");
+          break;
+        case 'win-page':
+          require_once("views/error/access-denied.php");
+          break;
+        case 'tuto-water-part-success':
           require_once("views/error/access-denied.php");
           break;
         case 'logout':
